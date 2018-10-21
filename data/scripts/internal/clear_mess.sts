@@ -1,0 +1,49 @@
+###
+### Initialisation - Stellarium360 Script
+###
+### Copyright 2015 Lionel RUIZ - lionel.ruiz@live.fr
+###
+### License:
+###
+### For use with Digitarium systems and LSS systems only
+### The exploitation of this script is restricted to registered users only.
+### http://lss-planetariums.info
+###
+set sky_culture default
+set sky_locale default
+body action clear
+body action initial
+body action remove mode in_galaxy name universe
+body action remove mode in_universe name multiverse
+dso action clear
+meteors zhr 10
+illuminate action clear
+set milky_way_texture default
+set milky_way_intensity default
+flag nebulae on
+flag bright_nebulae on
+flag suntrace off
+suntrace action clear
+planet_scale name Mercury scale 1
+planet_scale name Venus scale 1
+planet_scale name Earth scale 1
+planet_scale name Mars scale 1
+planet_scale name Jupiter scale 1
+planet_scale name Saturn scale 1
+planet_scale name Uranus scale 1
+planet_scale name Neptune scale 1
+flag sun_scaled off
+body name Ceres hidden true
+body name Pluto hidden true
+body name Eris hidden true
+body name Haumea hidden true
+body name Makemake hidden true
+body name Io hidden false
+body name Europa hidden false
+body name Ganymede hidden false
+body name Callisto hidden false
+body name Tethys hidden false
+body name Rhea hidden false
+body name Dione hidden false
+body name Titan hidden false
+body name Iapetus hidden false

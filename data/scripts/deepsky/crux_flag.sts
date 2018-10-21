@@ -1,0 +1,23 @@
+###
+### Twin image - Stellarium Stratoscript
+###
+### Copyright 2009 Lionel RUIZ - lionel.ruiz@live.fr
+###
+### License:
+###
+### For use with Digitarium systems and LSS systems only
+### The exploitation of this script is restricted to registered users only.
+### http://lss-planetarium.ovh.org
+###
+# INIT
+image action load name 01 filename australia/australia.png coordinate_system horizontal alpha 0 scale 40 altitude 45 azimuth -90
+image action load name 02 filename australia/australia.png coordinate_system horizontal alpha 0 scale 40 altitude 45 azimuth 90
+wait duration 0.5
+image name 01 alpha 1 duration 3
+image name 02 alpha 1 duration 3
+wait duration 3.5
+script action pause
+image name 01 alpha 0 duration 2
+image name 02 alpha 0 duration 2
+wait duration 2
+script action end

@@ -1,0 +1,27 @@
+###
+### Planet Position Barcelona - Stellarium Stratoscript
+###
+### Copyright 2009 Lionel RUIZ - lionel.ruiz@live.fr
+###
+### License:
+###
+### Permission is granted to copy, distribute, and modify this file and 
+### accompanying files provided that existing copyright notices, and the 
+### text of this license are not removed or modified, other than to add 
+### your own copyright notice for your modifications.
+###
+set home_planet Earth
+moveto lat 41.38 lon -2.18 altitude 50 duration 0
+landscape name barcelona type fisheye maptex panoramas/barcelone.png texturefov 180 action load
+flag landscape on
+flag atmosphere on
+flag track_object off
+flag planet_orbits off
+flag planet_names off
+flag object_trails off
+zoom auto initial duration 0
+flag track_object off
+flag planet_orbits off
+flag planet_names off
+flag object_trails off
+zoom auto out duration 0

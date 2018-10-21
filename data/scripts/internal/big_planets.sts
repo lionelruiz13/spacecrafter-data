@@ -1,0 +1,69 @@
+###
+### Exagerated Planets - SpaceCrafter Script
+###
+### A solar system exagerrated planets simulator
+###
+### Copyright 2015 Lionel RUIZ - lionel.ruiz@live.fr
+###
+### License:
+###
+### For use with Digitarium systems and LSS systems only
+### The exploitation of this script is restricted to registered users only.
+### http://lss-planetariums.info
+###
+flag sun_scaled off
+planet_scale name Mercury scale 1000
+planet_scale name Venus scale 1000
+planet_scale name Earth scale 1000
+body action load name _Mars parent Sun type Planet radius 4000000 oblateness 0.0 albedo 0.15 lighting true halo false color 1.0,1.0,1.0 rot_periode 24.622962 tex_map bodies/mars.png coord_func mars_special orbit_visualization_period 686.98 label_color 0.6,0.2,0.1 orbit_color 0.6,0.2,0.1
+#planet_scale name Mars scale 1000
+body name Mars hidden true
+planet_scale name Jupiter scale 1000
+planet_scale name Saturn scale 1000
+planet_scale name Uranus scale 2000
+planet_scale name Neptune scale 2000
+flag satellites off
+script action end
+
+body name Io hidden true
+body name Europa hidden true
+body name Ganymede hidden true
+body name Callisto hidden true
+body name Tethys hidden true
+body name Rhea hidden true
+body name Dione hidden true
+body name Titan hidden true
+body name Iapetus hidden true
+
+body action load name _Mercure parent Sun type Planet radius 3000000 oblateness 0.0 albedo 0.06 lighting true halo false color 1.0,1.0,1.0 rot_periode 1407.509405 tex_map bodies/mercure.png coord_func mercury_special orbit_visualization_period 87.97 label_color 0.3,0.3,0.2 orbit_color 0.3,0.3,0.2 trail_color 0.3,0.3,0.2
+body name Mercury hidden true
+
+body action load name _Vénus parent Sun type Planet radius 6000000 oblateness 0.0 albedo 0.77 lighting true halo false color 1.0,1.0,1.0 rot_periode 96 tex_map bodies/venus.png coord_func venus_special orbit_visualization_period 224.70 label_color 0.4,0.4,0.3 orbit_color 0.4,0.4,0.3
+body name Venus hidden true
+
+body action load name _ parent Sun type Planet radius 6000000 oblateness 0.0 albedo 0.39 lighting true halo false color 1.0,1.0,1.0 rot_periode 23.9344694 tex_map bodies/terre.png coord_func earth_special label_color 0.1,0.3,0.5 orbit_color 0.1,0.3,0.5
+body name Earth hidden false
+
+#planet_scale name Earth scale 1000
+#body action load name _Terre parent Sun type Planet radius 6000000 oblateness 0.0 albedo 0.39 lighting true halo false color 1.0,1.0,1.0 rot_periode 23.9344694 tex_map bodies/terre.png coord_func earth_special orbit_visualization_period 365.25 label_color 0.1,0.3,0.5 orbit_color 0.1,0.3,0.5
+#body name Earth hidden true
+#planet_scale name Earth scale 1000
+
+body action load name _Mars parent Sun type Planet radius 4000000 oblateness 0.0 albedo 0.15 lighting true halo false color 1.0,1.0,1.0 rot_periode 24.622962 tex_map bodies/mars.png coord_func mars_special orbit_visualization_period 686.98 label_color 0.6,0.2,0.1 orbit_color 0.6,0.2,0.1
+body name Mars hidden true
+
+body action load name _Jupiter parent Sun type Planet radius 48000000 oblateness 0.06 albedo 0.51 lighting true halo false color 1.0,1.0,1.0 rot_periode 9.927953 tex_map bodies/jupiter.png coord_func jupiter_special orbit_visualization_period 4331.87 label_color 0.6,0.3,0.0 orbit_color 0.6,0.3,0.0
+body name Jupiter hidden true
+
+body action load name _Saturne parent Sun type Planet radius 40000000 oblateness 0.09 albedo 0.9 lighting true halo false color 1.0,1.0,1.0 rot_periode 0.45 tex_map bodies/saturne.png coord_func saturn_special rings true ring_outer_size 80000000 ring_inner_size 45000000 tex_ring bodies/saturn_rings_radial.png orbit_visualization_period 10760 label_color 0.4,0.4,0.1 orbit_color 0.4,0.4,0.1
+body name Saturn hidden true
+
+body action load name _Uranus parent Sun type Planet radius 30000000 oblateness 0.022927 albedo 0.66 lighting true halo false color 1.0,1.0,1.0 rot_periode -17.24 tex_map bodies/uranus.png coord_func uranus_special orbit_visualization_period 30685 label_color 0.4,0.4,0.5 orbit_color 0.4,0.4,0.5
+body name Uranus hidden true
+
+body action load name _Neptune parent Sun type Planet radius 25000000 oblateness 0.017081 albedo 0.62 lighting true halo false color 1.0,1.0,1.0 rot_periode 16.11 tex_map bodies/neptune.png coord_func neptune_special orbit_visualization_period 60189 label_color 0.1,0.1,0.7 orbit_color 0.1,0.1,0.7
+body name Neptune hidden true
+
+body name Solar_System_Observer hidden true
+
+

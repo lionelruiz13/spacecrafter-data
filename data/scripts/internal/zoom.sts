@@ -1,0 +1,15 @@
+###
+### Personal Zoom - Stellarium360 Script
+###
+### Copyright 2012 Lionel RUIZ - lionel.ruiz@live.fr
+###
+### License:
+###
+### Permission is granted to copy, distribute, and modify this file and 
+### accompanying files provided that existing copyright notices, and the 
+### text of this license are not removed or modified, other than to add 
+### your own copyright notice for your modifications.
+###
+zoom auto in
+zoom fov 360 duration 5
+wait duration 5.5

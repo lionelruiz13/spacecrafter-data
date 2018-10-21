@@ -1,0 +1,21 @@
+###
+### Orange fog - Stellarium360 Script
+###
+### Copyright 2010 Lionel RUIZ - lionel.ruiz@live.fr
+###
+### License:
+###
+### For use with Digitarium systems and LSS systems only
+### The exploitation of this script is restricted to registered users only.
+### http://lss-planetariums.info
+###
+image name fog filename orange_fog.png coordinate_system viewport alpha 0 scale 1 action load
+wait duration 0.5
+image name fog alpha 0.5 duration 2
+flag milky_way off
+wait duration 2.5
+script action pause
+image name fog alpha 0 duration 2
+flag milky_way on
+wait duration 2
+script action end

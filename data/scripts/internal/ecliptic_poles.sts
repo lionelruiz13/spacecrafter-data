@@ -1,0 +1,15 @@
+###
+### Ecliptic Pole - Stellarium360 Script
+###
+### Copyright 2011 Lionel RUIZ - lionel.ruiz@live.fr
+###
+### License:
+###
+### For use with Digitarium systems and LSS systems only
+### The exploitation of this script is restricted to registered users only.
+### http://www.lss-planetariums.info
+###
+#nebula action load ra 90 de -66.567 magnitude -30 angular_size 250 name eclnorth filename reticle.png credit ACA texture_luminance_adjust 1
+#nebula action load ra 270 de 66.567 magnitude -30 angular_size 250 name eclsouth filename reticle.png credit ACA texture_luminance_adjust 1
+flag ecliptic_center toggle
+script action end

@@ -1,0 +1,19 @@
+###
+### On the high seas - Stellarium Stratoscript
+###
+### Copyright 2011 Lionel RUIZ - lionel.ruiz@live.fr
+###
+### License:
+###
+### For use with Digitarium systems and LSS systems only
+### The exploitation of this script is restricted to registered users only.
+### http://lss-planetarium.info
+###
+moveto lat 41.76 lon -50.24 alt 0
+date utc 1912:04:14T16:00:00
+landscape action load name panorama type spherical maptex titanic/pano-iceberg.png night_texture titanic/pano-iceberg.png rotate_z 120 mipmap on
+flag landscape on
+zoom auto in
+zoom fov 185 duration 2
+wait duration 2
+script action end

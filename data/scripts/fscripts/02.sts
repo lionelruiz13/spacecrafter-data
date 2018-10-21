@@ -1,0 +1,38 @@
+###
+### Day on Earth - Stellarium Stratoscript
+###
+### Explain the daily movement of the earth as seen from top
+###
+### Copyright 2007 Lionel RUIZ - lionel.ruiz@live.fr
+###
+### License:
+###
+### Permission is granted to copy, distribute, and modify this file and 
+### accompanying files provided that existing copyright notices, and the 
+### text of this license are not removed or modified, other than to add 
+### your own copyright notice for your modifications.
+###
+clear state natural
+flag landscape off
+flag atmosphere off
+flag planets off
+# EARTH SEEN FROM TOP
+image name 01 filename day_earth/soleil.png coordinate_system horizontal alpha 1 scale 15 azimuth -180 altitude 10 action load
+image name 02 filename day_earth/terre-n.png coordinate_system viewport alpha 0 scale 0.33 action load
+wait duration 1
+image name 02 alpha 1 duration 2
+wait duration 2
+image name 03 filename day_earth/nightzone.png coordinate_system viewport alpha 0 scale 0.33 action load
+wait duration 1
+image name 03 alpha 0.8 duration 2
+wait duration 2
+script action pause
+# REAL MOVEMENT
+image name 02 rotation -720 duration 60
+wait duration 60
+script action pause
+# BACK TO EARTH
+flag landscape on
+flag atmosphere on
+flag planets on
+script action end

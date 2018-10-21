@@ -1,0 +1,12 @@
+###
+### Sky & Poles for precision - Nightshade Stratoscript
+###
+### Copyright 2015 Lionel RUIZ - lionel.ruiz@live.fr
+###
+### License:
+###
+### For use with Digitarium systems and LSS systems only
+### The exploitation of this script is restricted to registered users only.
+### http://www.lss-planetariums.info
+###
+nebula action load ra 37.75 de 89.27 magnitude -30 angular_size 150 name polaris filename polaris.png credit ACA texture_luminance_adjust 1

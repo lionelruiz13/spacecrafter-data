@@ -1,0 +1,10 @@
+flag track_object on
+flag atmosphere off
+flag landscape off
+wait duration 1
+moveto altitude 20000000 duration 3
+wait duration 2
+camera action transition_to target point name Space
+camera action move_to target body body_name selected duration 3 altitude 100000
+wait duration 3
+camera action transition_to target body name selected

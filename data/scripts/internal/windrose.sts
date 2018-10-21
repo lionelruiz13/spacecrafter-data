@@ -1,0 +1,8 @@
+#####################################
+#          ROSE DES VENTS           #
+#    LIONEL RUIZ (c) 17-08-2010     #
+#####################################
+# Stellarium360 Script
+# INIT
+landscape name panorama type fisheye maptex windrose.png night_texture windrose.png texturefov 180 action load
+script action end

@@ -1,0 +1,174 @@
+###
+### Jingle Bells - Stellarium Stratoscript
+###
+### Copyright 2008 Lionel RUIZ - lionel.ruiz@live.fr
+###
+### License:
+###
+### For use with Digitarium systems and LSS systems only
+### The exploitation of this script is restricted to registered users only.
+### http://lss-planetarium.ovh.org
+###
+clear state initial
+# d�marrage
+date utc 2008:11:18T04:00:00
+moveto lat 0 lon 0 alt 0 duration 0
+image name fond filename christmas/snowground2FE.png coordinate_system viewport alpha 1 action load
+image action load name maison filename christmas/maison-neige.png coordinate_system horizontal alpha 1 scale 40 altitude 20 azimuth 230
+image action load name arbre1 filename christmas/sapin.png coordinate_system horizontal alpha 1 scale 20 altitude 10 azimuth 100
+image action load name bneige filename christmas/snowman.png coordinate_system horizontal alpha 1 scale 20 altitude 10 azimuth 130
+image action load name titre filename christmas/noel_plane.png coordinate_system horizontal alpha 1 scale 0 altitude 45 rotation 0 azimuth 180
+image action load name cadeau1 filename christmas/cadeau1.png coordinate_system horizontal alpha 1 scale 0 altitude 40 rotation 0 azimuth 432
+image action load name cadeau2 filename christmas/cadeau3.png coordinate_system horizontal alpha 1 scale 0 altitude 50 rotation 0 azimuth 360
+image action load name cadeau3 filename christmas/cadeau5.png coordinate_system horizontal alpha 1 scale 0 altitude 60 rotation 0 azimuth 288
+image action load name cadeau4 filename christmas/cadeau2.png coordinate_system horizontal alpha 1 scale 0 altitude 70 rotation 0 azimuth 216
+image action load name cadeau5 filename christmas/cadeau4.png coordinate_system horizontal alpha 1 scale 0 altitude 80 rotation 0 azimuth 144
+image action load name cadeau6 filename christmas/cadeau2.png coordinate_system horizontal alpha 1 scale 0 altitude 45 rotation 0 azimuth 396
+image action load name cadeau7 filename christmas/cadeau4.png coordinate_system horizontal alpha 1 scale 0 altitude 55 rotation 0 azimuth 324
+image action load name cadeau8 filename christmas/cadeau1.png coordinate_system horizontal alpha 1 scale 0 altitude 65 rotation 0 azimuth 252
+image action load name cadeau9 filename christmas/cadeau3.png coordinate_system horizontal alpha 1 scale 0 altitude 75 rotation 0 azimuth 180
+image action load name cadeau10 filename christmas/cadeau5.png coordinate_system horizontal alpha 1 scale 0 altitude 85 rotation 0 azimuth 108
+image name 01 filename christmas/neige-gros.png coordinate_system viewport scale 1.00 alpha 0 action load
+image name 02 filename christmas/neige-moyen.png coordinate_system viewport scale 0.75 alpha 0 action load
+image name 03 filename christmas/neige-petit.png coordinate_system viewport scale 0.25 alpha 0 action load
+image action load name traineau filename christmas/traineau.png coordinate_system horizontal alpha 1 scale 30 altitude 10 rotation 0 azimuth 180
+wait duration 3
+audio action play filename christmas/jingle-bells.ogg output_rate 44000 volume 1
+wait duration 3
+image name traineau altitude 90 azimuth -360 duration 17 rotation 0 scale 1
+wait duration 1
+meteors zhr 1000000
+wait duration 1
+image name 01 alpha 1 duration 2
+image name 02 alpha 1 duration 2
+image name 03 alpha 1 duration 2
+wait duration 1
+image name 01 scale 1.5 duration 60
+image name 02 scale 2 duration 60
+image name 03 scale 4 duration 60
+image name cadeau1 scale 10 azimuth 360 altitude 5 rotation 1440 duration 5
+wait duration 1
+image name cadeau6 scale 10 azimuth 324 altitude 5 rotation 1440 duration 5
+wait duration 1
+image name 01 rotation 10 duration 2
+image name 02 rotation -10 duration 2
+image name 03 rotation 0 duration 2
+image name cadeau2 scale 10 azimuth 288 altitude 5 rotation 1440 duration 5
+wait duration 1
+image name cadeau7 scale 10 azimuth 252 altitude 5 rotation 1440 duration 5
+wait duration 1
+image name 01 rotation 0 duration 2
+image name 02 rotation -5 duration 2
+image name 03 rotation 10 duration 2
+image name cadeau3 scale 10 azimuth 216 altitude 5 rotation 1440 duration 5
+wait duration 1
+image name cadeau8 scale 10 azimuth 180 altitude 5 rotation 1440 duration 5
+wait duration 1
+image name 01 rotation -10 duration 2
+image name 02 rotation 0 duration 2
+image name 03 rotation 5 duration 2
+image name cadeau4 scale 10 azimuth 144 altitude 5 rotation 1440 duration 5
+wait duration 1
+image name cadeau9 scale 10 azimuth 108 altitude 5 rotation 1440 duration 5
+wait duration 1
+image name 01 rotation 0 duration 2
+image name 02 rotation -10 duration 2
+image name 03 rotation 0 duration 2
+image name cadeau5 scale 10 azimuth 72 altitude 5 rotation 1440 duration 5
+wait duration 1
+image name cadeau10 scale 10 azimuth 36 altitude 5 rotation 1440 duration 5
+wait duration 1
+image name 01 rotation 5 duration 2
+image name 02 rotation -5 duration 2
+image name 03 rotation 5 duration 2
+wait duration 2
+image name 01 rotation 0 duration 2
+image name 02 rotation -10 duration 2
+image name 03 rotation 10 duration 2
+wait duration 2
+image name 01 rotation -10 duration 2
+image name 02 rotation 0 duration 2
+image name 03 rotation 5 duration 2
+wait duration 2
+image name 01 rotation 0 duration 2
+image name 02 rotation -10 duration 2
+image name 03 rotation 0 duration 2
+wait duration 2
+image name 01 rotation 10 duration 2
+image name 02 rotation -10 duration 2
+image name 03 rotation -5 duration 2
+wait duration 2
+image name 01 rotation 0 duration 2
+image name 02 rotation -10 duration 2
+image name 03 rotation -10 duration 2
+wait duration 2
+image name 01 rotation -10 duration 2
+image name 02 rotation 0 duration 2
+image name 03 rotation -5 duration 2
+wait duration 2
+image name 01 rotation 0 duration 2
+image name 02 rotation -10 duration 2
+image name 03 rotation 0 duration 2
+wait duration 2
+image name titre alpha 1 scale 60 duration 10
+image name 01 rotation 10 duration 2
+image name 02 rotation -5 duration 2
+image name 03 rotation 5 duration 2
+wait duration 2
+image name 01 rotation 0 duration 2
+image name 02 rotation -10 duration 2
+image name 03 rotation 10 duration 2
+wait duration 2
+image name 01 rotation -10 duration 2
+image name 02 rotation 0 duration 2
+image name 03 rotation 5 duration 2
+wait duration 2
+image name 01 rotation 0 duration 2
+image name 02 rotation -10 duration 2
+image name 03 rotation 0 duration 2
+wait duration 2
+image name 01 rotation 10 duration 2
+image name 02 rotation 0 duration 2
+image name 03 rotation 10 duration 2
+wait duration 2
+image name 01 rotation 0 duration 2
+image name 02 rotation -5 duration 2
+image name 03 rotation 0 duration 2
+wait duration 2
+image name 01 rotation -10 duration 2
+image name 02 rotation -10 duration 2
+image name 03 rotation 10 duration 2
+wait duration 2
+image name 01 rotation 0 duration 2
+image name 02 rotation 0 duration 2
+image name 03 rotation 5 duration 2
+wait duration 2
+image name 01 rotation 10 duration 2
+image name 02 rotation -10 duration 2
+image name 03 rotation 0 duration 2
+wait duration 2
+image name 01 rotation 0 duration 2
+image name 02 rotation 0 duration 2
+image name 03 rotation 10 duration 2
+wait duration 2
+image name 01 rotation 10 duration 2
+image name 02 rotation -10 duration 2
+image name 03 rotation 0 duration 2
+wait duration 2
+image name 01 rotation 0 duration 2
+image name 02 rotation -10 duration 2
+image name 03 rotation 5 duration 2
+wait duration 2
+image name 01 rotation -10 duration 2
+image name 02 rotation 0 duration 2
+image name 03 rotation 10 duration 2
+wait duration 2
+image name 01 alpha 0 duration 2
+image name 02 alpha 0 duration 2
+image name 03 alpha 0 duration 2
+meteors zhr 10
+wait duration 2
+image name traineau alpha 0 duration 2
+image name titre alpha 0 duration 2
+wait duration 2
+script action end

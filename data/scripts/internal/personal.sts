@@ -1,0 +1,13 @@
+###
+### Personal Equatorial lines - Stellarium360 Script
+###
+### Copyright 2016 Lionel RUIZ - lionel.ruiz@live.fr
+###
+### License:
+###
+### For use with LSS systems only
+### The exploitation of this script is restricted to registered users only.
+### http://www.lss-planetariums.info
+###
+personeq action load filename personal.txt
+flag personeq toggle

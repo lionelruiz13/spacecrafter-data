@@ -1,0 +1,28 @@
+###
+### Planet Position Earth - Stellarium360 Script
+###
+### Copyright 2013 Lionel RUIZ - lionel.ruiz@live.fr
+###
+### License:
+###
+### Permission is granted to copy, distribute, and modify this file and 
+### accompanying files provided that existing copyright notices, and the 
+### text of this license are not removed or modified, other than to add 
+### your own copyright notice for your modifications.
+###
+set home_planet Mars
+landscape action load name pano type spherical maptex panoramas/tall_summit.png
+flag landscape on
+flag atmosphere on
+flag track_object off
+flag planet_orbits off
+flag bright_nebulae on
+flag nebulae on
+flag planet_names off
+flag object_trails off
+zoom auto out duration 0
+body action clear
+flag stars on
+flag milky_way on
+wait duration 1
+script action end

@@ -1,0 +1,15 @@
+###
+### double caret - Stellarium360 Script
+###
+### Copyright 2011 Lionel RUIZ - lionel.ruiz@live.fr
+###
+### License:
+###
+### For use with Digitarium systems and LSS systems only
+### The exploitation of this script is restricted to registered users only.
+### http://www.lss-planetariums.info
+###
+wait duration 0.5
+flag track_object toggle
+wait duration 0.5
+script action end

@@ -1,0 +1,17 @@
+-------------------- SPACECRAFTER DATA INSTALLATION INSTRUCTIONS --------------
+
+===============================================================================
+        COMPILATION from the source package (spacecrafter-data-XXX.tgz)
+===============================================================================
+If you are curious you can also compile the software by yourself.
+
+you are ready to install Spacecrafter-data sources:
+
+Untar the tar.gz archive:
+~$ tar -xzf spacecrafter-data-XXX.tar.gz
+~$ cd spacecrafter-data
+
+Then type:
+~$ cd build
+~$ cmake ..
+~$ sudo make install or make install as root.

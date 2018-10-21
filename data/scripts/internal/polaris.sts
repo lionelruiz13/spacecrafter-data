@@ -1,0 +1,13 @@
+###
+### Polaris - SpaceCrafter Script
+###
+### Copyright 2017 Lionel RUIZ - lionel.ruiz@live.fr
+###
+### License:
+###
+### For use with LSS systems only
+### The exploitation of this script is restricted to registered users only.
+### http://www.lss-planetariums.info
+###
+illuminate hp 11767 filename polaris.png rotation 0 size 100 display on
+#illuminate hp 101884 filename dome/polaris.png rotation 0 size 100 display on

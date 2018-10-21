@@ -1,0 +1,49 @@
+###
+### 3 images - Stellarium Stratoscript
+###
+### Copyright 2009 Lionel RUIZ - lionel.ruiz@live.fr
+###
+### License:
+###
+### For use with Digitarium systems and LSS systems only
+### The exploitation of this script is restricted to registered users only.
+### http://lss-planetarium.ovh.org
+###
+# INIT
+image action load name 01 filename jupiter/jupiter.png coordinate_system horizontal alpha 0 scale 50 altitude 45 azimuth 180
+image action load name 02 filename jupiter/jupiter-mytho.png coordinate_system horizontal alpha 0 scale 50 altitude 45 azimuth 60
+image action load name 03 filename jupiter/jupiter-info.png coordinate_system horizontal alpha 0 scale 70 altitude 20 azimuth -60
+image action load name 04 filename jupiter/jup-moon1.png coordinate_system horizontal alpha 0 scale 50 altitude 45 azimuth 135
+image action load name 05 filename jupiter/jup-moon2.png coordinate_system horizontal alpha 0 scale 50 altitude 45 azimuth -135
+image action load name 06 filename jupiter/jup-moon3.png coordinate_system horizontal alpha 0 scale 50 altitude 45 azimuth -45
+image action load name 07 filename jupiter/jup-moon4.png coordinate_system horizontal alpha 0 scale 50 altitude 45 azimuth 45
+wait duration 0.5
+image name 01 alpha 1 duration 2
+wait duration 2.5
+script action pause
+image name 02 alpha 1 duration 2
+wait duration 2.5
+script action pause
+image name 03 alpha 1 duration 2
+wait duration 2.5
+script action pause
+image name 01 alpha 0 duration 2
+image name 02 alpha 0 duration 2
+image name 03 alpha 0 duration 2
+wait duration 2
+image name 04 alpha 1 duration 2
+wait duration 1
+image name 05 alpha 1 duration 2
+wait duration 1
+image name 06 alpha 1 duration 2
+wait duration 1
+image name 07 alpha 1 duration 2
+wait duration 2.5
+script action pause
+image name 01 alpha 0 duration 2
+image name 04 alpha 0 duration 2
+image name 05 alpha 0 duration 2
+image name 06 alpha 0 duration 2
+image name 07 alpha 0 duration 2
+wait duration 2
+script action end

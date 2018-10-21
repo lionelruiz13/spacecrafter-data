@@ -1,0 +1,27 @@
+###
+### Planet Position VLT - Stellarium Stratoscript
+###
+### Copyright 2009 Lionel RUIZ - lionel.ruiz@live.fr
+###
+### License:
+###
+### Permission is granted to copy, distribute, and modify this file and 
+### accompanying files provided that existing copyright notices, and the 
+### text of this license are not removed or modified, other than to add 
+### your own copyright notice for your modifications.
+###
+set home_planet Earth
+moveto lat -24.627 lon -70.405 altitude 2650 duration 0
+set landscape_name paranal
+flag landscape on
+flag atmosphere on
+flag track_object off
+flag planet_orbits off
+flag planet_names off
+flag object_trails off
+zoom auto initial duration 0
+flag track_object off
+flag planet_orbits off
+flag planet_names off
+flag object_trails off
+zoom auto out duration 0

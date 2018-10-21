@@ -1,0 +1,77 @@
+position action save
+flag planets off
+flag stars off
+flag milky_way off
+flag nebulae off
+flag atmosphere off
+flag landscape off
+timerate rate 0
+wait duration 2
+set heading 180
+zoom auto out duration 0
+moveto lat -60 lon 0 alt 0 duration 0
+date utc 2016:03:20T12:00:00
+
+set auto_move_duration 0
+image name black filename dome/black.png coordinate_system viewport alpha 0 scale 1 action load
+wait duration 0.2
+image name black alpha 1 duration 1
+wait duration 1
+flag nebulae off
+flag bright_nebulae off
+flag suntrace off
+flag constellation_art off
+flag constellation_boundaries off
+flag constellation_names off
+flag constellation_drawing off
+flag circumpolar_circle off
+flag cardinal_points off
+flag azimuthal_grid off
+flag aries_line off
+flag analemma off
+flag analemma_line off
+flag ecliptic_center off
+flag ecliptic_line off
+flag equator_line off
+flag equatorial_grid off
+flag fog off
+flag galactic_grid off
+flag galactic_center off
+flag galactic_pole off
+flag greenwich_line off
+flag lock_sky_position off
+flag meridian_line off
+flag nebula_hints off
+flag nebula_names off
+flag object_trails off
+flag personal off
+flag personeq off
+flag precession_circle off
+flag polar_circle off
+flag star_names off
+flag tropic_lines off
+flag vernal_points off
+flag vertical_line off
+flag zenith_line off
+flag zodiac off
+suntrace action clear
+flag body_trace off
+planet_scale name Mercury scale 1
+planet_scale name Venus scale 1
+planet_scale name Earth scale 1
+planet_scale name Mars scale 1
+planet_scale name Jupiter scale 1
+planet_scale name Saturn scale 1
+planet_scale name Uranus scale 1
+planet_scale name Neptune scale 1
+flag stars off
+flag planets off
+flag atmosphere off
+flag star_twinkle off
+flag landscape off
+flag planets_axis off
+flag planet_names off
+flag sun_scaled off
+image name black alpha 0 duration 1
+wait duration 1.5
+set auto_move_duration 5

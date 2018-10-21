@@ -1,0 +1,32 @@
+###
+### Exagerated Planets - Stellarium360 Script
+###
+### A GOTO-EX3 planets simulator
+###
+### Copyright 2009 Lionel RUIZ - lionel.ruiz@live.fr
+###
+### License:
+###
+### For use with Digitarium systems and LSS systems only
+### The exploitation of this script is restricted to registered users only.
+### http://lss-planetariums.info
+###
+### You must upgrade your system to the 0.8.8 version for this StratoScript to work.
+###
+
+body action load name _ parent Sun radius 3000000 oblateness 0.0 albedo 0.06 lighting true halo false color 1.0,1.0,1.0 rot_periode 1407.509405 tex_map planetex/mercure.png coord_func mercury_special
+
+body action load name __ parent Sun radius 3000000 oblateness 0.0 albedo 0.77 lighting true halo false color 1.0,1.0,1.0 rot_periode 96 tex_map planetex/venus.png coord_func venus_special
+
+#body action load name ___ parent Sun radius 6378000 oblateness 0.0 albedo 0.39 lighting true halo false color 1.0,1.0,1.0 rot_periode 23.9344694 tex_map planetex/terre.png coord_func earth_special
+
+body action load name ____ parent Sun radius 4000000 oblateness 0.0 albedo 0.15 lighting true halo false color 1.0,1.0,1.0 rot_periode 24.622962 tex_map planetex/mars.png coord_func mars_special
+
+body action load name _____ parent Sun radius 20000000 oblateness 0.06 albedo 0.51 lighting true halo false color 1.0,1.0,1.0 rot_periode 9.927953 tex_map planetex/jupiter.png coord_func jupiter_special
+
+body action load name ______ parent Sun radius 20000000 oblateness 0.09 albedo 0.9 lighting true halo false color 1.0,1.0,1.0 rot_periode 0.45 tex_map planetex/saturne.png coord_func saturn_special rings true ring_outer_size 40000000 ring_inner_size 20000000 tex_ring bodies/saturn_rings_radial.png 
+
+body action load name _______ parent Sun radius 50000000 oblateness 0.022927 albedo 0.66 lighting true halo false color 1.0,1.0,1.0 rot_periode -17.24 tex_map planetex/uranus.png coord_func uranus_special
+
+body action load name ________ parent Sun radius 60000000 oblateness 0.017081 albedo 0.62 lighting true halo false color 1.0,1.0,1.0 rot_periode 16.11 tex_map planetex/neptune.png coord_func neptune_special
+

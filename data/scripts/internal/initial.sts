@@ -1,0 +1,74 @@
+###
+### Initialisation - SpaceCrafter Script
+###
+### Copyright 2018 Lionel RUIZ - lionel.ruiz@live.fr
+###
+### License:
+###
+### For use with LSS systems only
+### The exploitation of this script is restricted to registered users only.
+### http://lss-planetariums.info
+###
+clear state natural
+body mode in_galaxy action clear
+star_lines load asterism_all.fab
+moveto alt 0.9E+9 duration 0
+wait duration 0.05
+moveto alt 0.9E+10 duration 0
+wait duration 0.05
+set home_planet default
+moveto lat default lon default alt default
+wait duration 0.05
+date load preset
+flag star_lines off
+set sky_culture default
+set sky_locale default
+flag planet_orbits off
+flag planet_names off
+body action clear
+body action initial
+body action remove mode in_galaxy name universe
+body action remove mode in_universe name multiverse
+#body action load name mwcenter type Comet parent Sun color 0,0,0 halo false lighting false coord_func still_orbit radius 1 albedo 0.0 orbit_x 0.00001 orbit_y 0.00001 orbit_z 0.00001 rot_periode 100000000000
+#body action load name Milkyway type Satellite parent mwcenter model3D true hidden true model_name Milkyway radius 1E5 oblateness 0.0 albedo 0.0 lighting false halo false color 1.0,1.0,1.0 rot_periode 1000000000 tex_map milkyway.png coord_func sun_special
+set heading default
+dso action clear
+illuminate action clear
+set milky_way_texture default
+flag nebulae on
+flag bright_nebulae on
+set milky_way_intensity default
+body_trace action clear
+planet_scale name Mercury scale 1
+planet_scale name Venus scale 1
+planet_scale name Earth scale 1
+planet_scale name Mars scale 1
+planet_scale name Jupiter scale 1
+planet_scale name Saturn scale 1
+planet_scale name Uranus scale 1
+planet_scale name Neptune scale 1
+set ambient_light default
+flag stars on
+flag planets on
+flag atmosphere on
+flag landscape on
+flag planets_axis off
+body_trace action clear
+flag body_trace off
+flag sun_scaled off
+external_viewer filename stopmusic.sh action play
+external_viewer action stop
+deselect
+set ambient_light default
+#body name Sun hidden false
+body name Io hidden false
+body name Europa hidden false
+body name Ganymede hidden false
+body name Callisto hidden false
+body name Tethys hidden false
+body name Rhea hidden false
+body name Dione hidden false
+body name Titan hidden false
+body name Iapetus hidden false
+set screen_fader 0
+script action end

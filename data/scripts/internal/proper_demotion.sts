@@ -1,0 +1,17 @@
+### Masterput - Stellarium360 Script
+flag landscape off
+flag atmosphere off
+image name black filename dome/black.png coordinate_system viewport alpha 0 scale 1 action load
+wait duration 1
+image name black alpha 1 duration 1
+wait duration 1
+body action load name "_" parent Sun type Asteroid radius 1 oblateness 0.0 albedo 0.0 lighting false halo false color 1.0,1.0,1.0 rot_periode 1E12 tex_map none.png coord_func earth_special
+set home_planet "_" duration 0
+moveto lat 30 lon 90 alt 0
+flag planets off
+flag constellation_drawing on
+image name black alpha 0 duration 2
+wait duration 3
+flag show_tui_datetime on
+timerate rate -100000000000
+script action end

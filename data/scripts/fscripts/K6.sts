@@ -1,0 +1,22 @@
+###
+### Planet Position Saturn as seen from Mimas - Stellarium Stratoscript
+###
+### Copyright 2009 Lionel RUIZ - lionel.ruiz@live.fr
+###
+### License:
+###
+### Permission is granted to copy, distribute, and modify this file and 
+### accompanying files provided that existing copyright notices, and the 
+### text of this license are not removed or modified, other than to add 
+### your own copyright notice for your modifications.
+###
+set home_planet Mimas
+moveto lat 0 lon 110 duration 2
+set landscape_name Moon
+flag landscape on
+flag atmosphere off
+flag track_object off
+flag planet_orbits off
+flag planet_names off
+flag object_trails off
+zoom auto initial duration 0

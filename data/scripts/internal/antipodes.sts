@@ -1,0 +1,13 @@
+###
+### On the high seas - Stellarium Stratoscript
+###
+### Copyright 2012 Lionel RUIZ - lionel.ruiz@live.fr
+###
+### License:
+###
+### For use with Digitarium systems and LSS systems only
+### The exploitation of this script is restricted to registered users only.
+### http://www.lss-planetarium.info
+###
+landscape action load name panorama type spherical maptex panoramas/mer_haute.png night_texture panoramas/mer_haute.png
+script action end

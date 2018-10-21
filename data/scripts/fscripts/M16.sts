@@ -1,0 +1,21 @@
+###
+### MilkyWay Key - Stellarium360 Script
+###
+### Copyright 2009 Lionel RUIZ - lionel.ruiz@live.fr
+###
+### License:
+###
+### For use with Digitarium systems and LSS systems only
+### The exploitation of this script is restricted to registered users only.
+### http://lss-planetariums.info
+###
+set milky_way_texture milkyways/mw16.png
+flag milky_way toggle
+flag nebulae off
+flag bright_nebulae off
+set milky_way_intensity 1
+flag stars off
+flag planets off
+flag atmosphere off
+flag landscape off
+script action end

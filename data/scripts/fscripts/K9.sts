@@ -1,0 +1,25 @@
+###
+### See the solar system from above - Stellarium360 Script for LSS & Digitarium systems
+###
+### Copyright 2015 Lionel RUIZ - lionel.ruiz@live.fr
+###
+### License:
+###
+### Permission is granted to copy, distribute, and modify this file and 
+### accompanying files provided that existing copyright notices, and the 
+### text of this license are not removed or modified, other than to add 
+### your own copyright notice for your modifications.
+###
+position action save
+flag atmosphere off
+moveto lat 90 lon 0 alt 1.28E+12 duration 0
+set auto_move_duration 0
+body action load name Solar_System parent Sun type Asteroid radius 1 halo false color 0,0,0 lighting false albedo 0 coord_func ell_orbit orbit_Epoch 2451545.0 orbit_Period 1E+9 orbit_SemiMajorAxis 0 orbit_Eccentricity 0 orbit_Inclination 0 orbit_AscendingNode 0 orbit_LongOfPericenter 0 orbit_MeanLongitude 0 rot_obliquity 0 rot_periode 100000000000000 hidden true
+set home_planet Solar_System 
+select planet Sun pointer off
+flag track_object on
+wait duration 0.05
+moveto lat 90 lon 0 alt 1.28E+12 duration 0
+flag planet_orbits on
+wait duration 0.05
+set auto_move_duration 5

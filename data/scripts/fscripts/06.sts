@@ -1,0 +1,478 @@
+###
+### Le ciel d'hiver 2008 - Stellarium Stratoscript
+###
+### Copyright 2008 Yves LHOUMEAU - yves.lhoumeau@gmail.com
+###
+### License:
+###
+### For use with Digitarium systems and LSS systems only
+### The exploitation of this script is restricted to registered users only.
+### http://lss-planetarium.ovh.org
+###
+
+# version animateur: le script s'arrète après chaque affichage
+# pour repartir utiliser la touche k
+# chaque séquence est numérotée de 1 à 54
+
+# ----- mise en place du décors -----
+
+flag atmosphere on
+flag azimuthal_grid off
+flag bright_nebulae on
+flag cardinal_points off
+flag constellation_art off
+flag constellation_drawing off
+flag constellation_names off
+flag constellation_pick on
+flag constellation_isolate_selected on
+flag ecliptic_line off
+flag equator_line off
+flag equatorial_grid off
+flag fog on
+
+set landscape_name hurricane
+flag landscape on
+
+
+flag manual_zoom off
+flag milky_way off
+flag moon_scaled on
+set moon_scale 5
+flag nebulae off
+flag nebula_names off
+flag planets on 
+flag planet_names off
+flag planet_orbits off
+flag point_star off
+
+
+flag star_names off
+flag star_twinkle on
+flag stars on
+
+set sky_locale fr
+zoom auto initial
+
+
+moveto lat 46.5 lon 6.33 alt 100
+date utc 2008:12:21T15:30:00
+
+#===========================================================
+# en attendant la nuit    
+#===========================================================
+
+
+
+# 1----- coucher du soleil ------
+timerate rate 240
+wait duration 20
+timerate rate 1
+script action pause
+
+# 2----- affichage des planètes visibles
+flag planet_names on
+script action pause
+flag planet_names off
+
+#3 ---- pointage de Venus 
+select planet Venus pointer off
+zoom auto in
+zoom fov 0.3 in duration 1
+deselect
+script action pause
+
+#4 ---- pointage de jupiter 
+select planet Jupiter pointer off
+zoom auto in
+zoom fov 0.3 in duration 1
+deselect
+script action pause
+
+#5 ---- nom des satellites de jupiter
+flag planet_names on
+script action pause
+timerate rate 1
+flag planet_names off
+zoom auto initial
+
+
+#6 ----attente de la nuit noire, rotation polaire
+timerate rate 360
+wait duration 25
+timerate rate 1
+script action pause
+
+#==========================================================
+# le ciel du soir a l'oeil nu
+#==========================================================
+# autour du pole
+#===============
+
+#7 ----grande ourse
+select constellation uma pointer off
+flag constellation_drawing on
+script action pause
+
+#8 ---- gardes de la grande ourse
+select HP 53910 pointer on
+wait duration 5
+select HP 54061 pointer on
+script action pause
+
+#9 ---- polaire et petite ourse
+select HP 11767 pointer on
+script action pause
+
+# 10---- cassiopée
+select constellation cas pointer off
+script action pause
+
+#11---- dragon
+select constellation dra pointer off
+script action pause
+
+#12 ---- constellations mythologiques: ourses, cassiopée, dragon
+flag constellation_drawing off
+flag constellation_art on
+script action pause
+
+#13 ---- le ciel sans aucun repères
+flag constellation_art off
+deselect
+script action pause
+
+#==================
+# les constellations d'hiverI
+#==================
+
+#14 ----attente de la nuit noire, rotation polaire
+timerate rate 480
+wait duration 15
+timerate rate 1
+script action pause
+
+
+#15 ---- Orion
+select constellation ori pointer off
+flag constellation_drawing on
+script action pause
+
+#16 ---- grand chien
+select constellation cma pointer off
+script action pause
+
+#17 ---- petit chien 
+select constellation cmi pointer off
+script action pause
+
+#18 ---- licorne
+select constellation mon pointer off
+script action pause
+
+#19 ---- lièvre
+select constellation lep pointer off
+script action pause
+
+#20 ---- constellations mythologiques
+flag constellation_drawing off
+flag constellation_art on
+script action pause
+
+#21 ---- le ciel sans repères
+flag constellation_art off
+deselect
+script action pause
+
+#==================
+# les constellations de l'hiver II 
+#==================
+
+#22----taureau
+select constellation tau pointer off
+flag constellation_drawing on
+script action pause
+
+#23 ---- gemeaux
+select constellation gem pointer off
+script action pause
+
+#24 ---- cocher
+select constellation aur pointer off
+script action pause
+
+#25 ---- le ciel mythologique: taureau,gemeaux,cocher
+flag constellation_drawing off
+flag constellation_art on
+script action pause
+
+#26 ---- le ciel sans repères
+flag constellation_art off
+deselect
+script action pause
+off
+script action pause
+
+#27 ----affichage de la voie lactée
+flag milky_way on
+wait duration 2
+timerate rate 240
+wait duration 20
+timerate rate 1
+script action pause
+deselect
+
+#================================================================
+# le ciel au télescope
+#================================================================
+
+
+#28 ----pointage de M42
+select nebula M42 pointer on
+flag constellation_drawing on
+script action pause
+
+#29 ---- zoom sur M42
+deselect
+flag constellation_drawing off
+select nebula M42 pointer off
+zoom auto in
+deselect
+timerate rate 0
+script action pause
+timerate rate 1
+zoom auto initial
+
+
+#30 ----pointage de M45
+select nebula M45 pointer on
+flag constellation_drawing on
+script action pause
+
+#31 ---- zoom sur M45
+deselect
+flag constellation_drawing off
+select nebula M45 pointer off
+zoom auto in
+deselect
+timerate rate 0
+script action pause
+timerate rate 1
+zoom auto initial
+
+
+#32 ---- pointage de M35
+select nebula M35 pointer on
+flag constellation_drawing on
+script action pause
+
+#33 ---- zoom sur M35
+deselect
+flag constellation_drawing off
+select nebula M35 pointer off
+zoom auto in
+zoom fov 2 in duration 1
+deselect
+timerate rate 0
+script action pause
+timerate rate 1
+zoom auto initial
+
+#34 ----pointage de M41
+select nebula M41 pointer on
+flag constellation_drawing on
+script action pause
+
+#35 ---- zoom sur M41
+deselect
+flag constellation_drawing off
+select nebula M41 pointer off
+zoom auto in
+zoom fov 2 in duration 1
+deselect
+timerate rate 0
+script action pause
+timerate rate 1
+zoom auto initial
+
+
+#36 ----pointage de M36
+select nebula M36 pointer on
+flag constellation_drawing on
+script action pause
+
+#37 ---- zoom sur M36
+deselect
+flag constellation_drawing off
+select nebula M36 pointer off
+zoom auto in
+zoom fov 2 in duration 1
+deselect
+timerate rate 0
+script action pause
+timerate rate 1
+zoom auto initial
+
+
+#38 ----pointage de M37
+select nebula M37 pointer on
+flag constellation_drawing on
+script action pause
+
+#39 ---- zoom sur M37
+deselect
+flag constellation_drawing off
+select nebula M37 pointer off
+zoom auto in
+zoom fov 2 in duration 1
+deselect
+timerate rate 0
+script action pause
+timerate rate 1
+zoom auto initial
+
+
+#40 ----pointage de M38
+select nebula M38 pointer on
+flag constellation_drawing on
+script action pause
+
+#41 ---- zoom sur M38
+deselect
+flag constellation_drawing off
+select nebula M38 pointer off
+zoom auto in
+zoom fov 2 in duration 1
+deselect
+timerate rate 0
+script action pause
+timerate rate 1
+zoom auto initial
+
+
+#42 ----pointage de M81
+select nebula M81 pointer on
+flag constellation_drawing on
+script action pause
+
+#43 ---- zoom sur M81
+deselect
+flag constellation_drawing off
+select nebula M81 pointer off
+zoom auto in
+zoom fov 2 in duration 1
+deselect
+timerate rate 0
+script action pause
+timerate rate 1
+zoom auto initial
+
+#44 ----pointage de M31
+select nebula M31 pointer on
+flag constellation_drawing on
+script action pause
+
+#45 ----zoom sur M31
+deselect
+flag constellation_drawing off
+select nebula M31 pointer off
+zoom auto in
+deselect
+timerate rate 0
+script action pause
+timerate rate 1
+zoom auto initial
+script action pause
+
+#46- retour à l'oeil nu 
+timerate rate 1
+zoom auto initial
+script action pause
+
+timerate rate 480
+wait duration 40
+timerate rate 1
+
+
+
+#===================================================================
+# Observation de Saturne
+#===================================================================
+
+# 47 ----repérage de Saturne
+flag planet_names on
+script action pause
+flag planet_names off
+
+# 48 ---- pointage de saturne
+select planet Saturn pointer off
+zoom auto in
+deselect
+script action pause   
+
+#49 ---- noms des satellites
+flag planet_names on
+script action pause
+flag planet_names off
+deselect
+zoom auto initial
+script action pause
+
+#50 ---- pointage de la lune, gros plan 
+set moon_scale 1
+select planet Moon pointer off
+zoom auto ini
+timerate rate 0
+zoom fov 1 in duration 1
+deselect
+script action pause
+timerate rate 1
+zoom auto initial
+
+#==================================================================
+#                   observation depuis la lune
+#                     changement de décors
+#==================================================================
+
+flag landscape_sets_location true
+flag atmosphere off
+set landscape_name moon
+flag landscape on
+set home_planet Moon
+flag planets on
+flag planet_names on
+zoom auto initial
+
+# 51 ---- noter que la petite ourse n'est plus au nord !
+#         positions des différentes planètes (écliptique) et phases de terre 
+timerate rate 18000
+wait duration 30
+flag constellation_drawing on
+wait duration 30
+script action pause
+
+
+# 52 ---- zoom  sur la terre , phases
+flag constellation_drawing off
+timerate rate 3600
+select planet Earth pointer off
+zoom auto fov 15 
+wait duration 60
+script action pause
+zoom auto initial
+timerate rate 1
+deselect
+
+#53 ---- retour sur terre et lever du jour
+
+set landscape_name hurricane
+flag landscape on
+set home_planet Earth
+date utc 2008:12:22T05:30:00
+flag atmosphere on
+flag planet_names off
+set moon_scale 5
+timerate rate 240
+wait duration 25
+timerate rate 1
+
+# ================ fin du spectacle : durée approximative 20 min =============

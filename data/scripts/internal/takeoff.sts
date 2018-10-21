@@ -1,0 +1,28 @@
+###
+### Take off - SpaceCrafter Script
+###
+### Copyright 2017 Lionel RUIZ - lionel.ruiz@live.fr
+###
+### License:
+###
+### For use with LSS systems only
+### The exploitation of this script is restricted to registered users only.
+### http://lss-planetariums.info
+###
+#image name black filename bodies/black.png coordinate_system viewport alpha 0 scale 1 action load
+#wait duration 0.1
+#image name black alpha 1 duration 1
+#wait duration 1
+position action save
+set auto_move_duration 0
+set home_planet Earth 
+select planet Sun pointer off
+flag track_object on
+moveto lat 90 lon 0 alt 5.0E+6 duration 0
+flag atmosphere off
+#image name black alpha 0 duration 1
+wait duration 1
+#set auto_move_duration 5
+
+
+

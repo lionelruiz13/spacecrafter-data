@@ -1,0 +1,17 @@
+###
+### Vernal point - Stellarium360 Script
+###
+### Copyright 2011 Lionel RUIZ - lionel.ruiz@live.fr
+###
+### License:
+###
+### For use with Digitarium systems and LSS systems only
+### The exploitation of this script is restricted to registered users only.
+### http://www.lss-planetariums.info
+###
+#nebula action load ra 0 de 90 magnitude -30 angular_size 250 name northpole filename reticle.png credit ACA texture_luminance_adjust 1
+#nebula action load ra 0 de -90 magnitude -30 angular_size 250 name southpole filename reticle.png credit ACA texture_luminance_adjust 1
+wait duration 0.5
+flag polar_circle toggle
+wait duration 0.5
+script action end
