@@ -3,12 +3,15 @@
 ###
 ### Copyright 2008 Yves LHOUMEAU - yves.lhoumeau@gmail.com
 ###
+### Mise à jour 2018 - Olivier NIVOIX - olivier@asso-sirius.org
+###
 ### License:
 ###
 ### For use with Digitarium systems and LSS systems only
 ### The exploitation of this script is restricted to registered users only.
 ### http://lss-planetarium.ovh.org
 ###
+
 flag atmosphere on
 flag azimuthal_grid off
 flag bright_nebulae on
@@ -17,7 +20,6 @@ flag constellation_art off
 flag constellation_drawing off
 flag constellation_names off
 flag constellation_pick on
-flag constellation_isolate_selected on
 flag ecliptic_line off
 flag equator_line off
 flag equatorial_grid off
@@ -36,8 +38,6 @@ flag star_names off
 flag star_twinkle on
 flag stars on
 flag show_tui_datetime off
-flag show_selected_object_info off
-flag show_appname off
 flag show_tui_short_obj_info off
 
 # demarrage
@@ -52,7 +52,7 @@ wait duration 2
 
 #--- PSR J0953+0755 dans le lion
 
-audio action play filename pulsars/chanson_pulsar1.ogg output_rate 44100 volume 1
+audio action play filename pulsars/chanson_pulsar1.ogg
 wait duration 5
 image name titre alpha 0 duration 2
 image name cambridge alpha 1 duration 2
@@ -73,7 +73,7 @@ select hp 48553 pointer on
 image action load name titre filename pulsars/lion.png coordinate_system horizontal alpha 1 scale 40 altitude 20 rotation 0 azimuth 180
 image name titre alpha 1 duration 2
 
-audio action play filename pulsars/PSR_J0953+0755.ogg output_rate 44100 volume 1
+audio action play filename pulsars/PSR_J0953+0755.ogg
 wait duration 15
 # 32s à l'origine
 
@@ -82,7 +82,7 @@ image name titre alpha 0
 
 #--- PSR B0329+54   persée
 wait duration 1
-audio action play filename pulsars/chanson_pulsar2.ogg output_rate 44100 volume 1
+audio action play filename pulsars/chanson_pulsar2.ogg
 image action load name titre filename pulsars/verylargearray.png coordinate_system viewport alpha 1 scale 1
 image name titre alpha 1 duration 17
 wait duration 17
@@ -102,7 +102,7 @@ select hp 16230 pointer on
 image action load name titre filename pulsars/persee.png coordinate_system horizontal alpha 1 scale 40 altitude 20 rotation 0 azimuth 180
 image name titre alpha 1 duration 2
 
-audio action play filename pulsars/PSR_B0329+54.ogg output_rate 44100 volume 1
+audio action play filename pulsars/PSR_B0329+54.ogg
 wait duration 15
 #16 s à l'origine
 
@@ -114,7 +114,7 @@ moveto lat -21.00 lon 55.32 alt 100 duration 5
 
 #--- PSR J0834-4511 dans les voiles
 wait duration 1
-audio action play filename pulsars/chanson_pulsar3.ogg output_rate 44100 volume 1
+audio action play filename pulsars/chanson_pulsar3.ogg
 wait duration 10
 image action load name titre filename pulsars/pulsar.png coordinate_system horizontal alpha 1 scale 100 altitude 90 rotation 0 azimuth 180
 image action load name titre2 filename pulsars/verylargearray.png coordinate_system viewport alpha 1 scale 1
@@ -139,7 +139,7 @@ select hp 42116 pointer on
 image action load name titre filename pulsars/voiles.png coordinate_system horizontal alpha 1 scale 40 altitude 20 rotation 0 azimuth 180
 image name titre alpha 1 duration 2
 
-audio action play filename pulsars/PSR_J0834-4511.ogg output_rate 44100 volume 1
+audio action play filename pulsars/PSR_J0834-4511.ogg
 wait duration 15
 #35s a l'origine
 
@@ -151,7 +151,7 @@ moveto lat 46.5 lon 06.34 alt 100 duration 5
 
 #--- PSR J0534+2200 pulsar de M1 
 wait duration 1
-audio action play filename pulsars/chanson_pulsar4.ogg output_rate 44100 volume 1
+audio action play filename pulsars/chanson_pulsar4.ogg
 wait duration 23
 
 select constellation tau pointer off
@@ -167,7 +167,7 @@ select nebula M1 pointer on
 image action load name titre filename pulsars/taureau.png coordinate_system horizontal alpha 1 scale 40 altitude 20 rotation 0 azimuth 180
 image name titre alpha 1 duration 2
 wait duration 5
-audio action play filename pulsars/PSR_J0534+2200.ogg output_rate 44100 volume 1
+audio action play filename pulsars/PSR_J0534+2200.ogg
 wait duration 7
 zoom auto in
 deselect
@@ -185,7 +185,7 @@ moveto lat -21.00 lon 55.32 alt 100 duration 5
 
 #--- PSR J0437-4715 dans le peintre
 wait duration 1
-audio action play filename pulsars/chanson_pulsar5.ogg output_rate 44100 volume 1
+audio action play filename pulsars/chanson_pulsar5.ogg
 wait duration 19
 
 select constellation pic pointer off
@@ -201,7 +201,7 @@ select hp 21843 pointer on
 image action load name titre filename pulsars/peintre.png coordinate_system horizontal alpha 1 scale 40 altitude 20 rotation 0 azimuth 180
 image name titre alpha 1 duration 2
 
-audio action play filename pulsars/PSR_J0437-4715.ogg output_rate 44100 volume 1
+audio action play filename pulsars/PSR_J0437-4715.ogg
 wait duration 15
 #17s a l'origine
 
@@ -216,7 +216,7 @@ date utc 2008:08:02T00:30:00
 
 #--- PSR J1939+2134 dans le petit renard
 wait duration 1
-audio action play filename pulsars/chanson_pulsar6.ogg output_rate 44100 volume 1
+audio action play filename pulsars/chanson_pulsar6.ogg
 wait duration 20
 
 select constellation vul pointer off
@@ -233,10 +233,10 @@ image action load name titre filename pulsars/renard.png coordinate_system horiz
 image name titre alpha 1 duration 2
 
 
-audio action play filename pulsars/PSR_J1939+2134.ogg output_rate 44100 volume 1
+audio action play filename pulsars/PSR_J1939+2134.ogg
 wait duration 15
 #29s a l'origine
-audio action stop
+audio action drop
 
 deselect
 image name titre alpha 0
