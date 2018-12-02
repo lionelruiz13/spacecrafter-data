@@ -1,3 +1,4 @@
+flag stars_trace off
 set auto_move_duration 0
 flag planet_orbits off
 image name black filename none.png coordinate_system viewport alpha 0 scale 1 action load
@@ -34,6 +35,7 @@ set milky_way_intensity default
 set heading default
 flag nebulae on
 flag bright_nebulae on
+flag body_trace off
 flag constellation_art off
 flag constellation_boundaries off
 flag constellation_names off

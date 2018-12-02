@@ -10,7 +10,9 @@
 ### http://lss-planetariums.info
 ###
 clear state natural
+flag stars_trace off
 body mode in_galaxy action clear
+#body name Spherical_grid mode in_galaxy action remove
 star_lines load asterism_all.fab
 moveto alt 0.9E+9 duration 0
 wait duration 0.05
@@ -37,6 +39,7 @@ illuminate action clear
 set milky_way_texture default
 flag nebulae on
 flag bright_nebulae on
+flag body_trace off
 set milky_way_intensity default
 body_trace action clear
 planet_scale name Mercury scale 1

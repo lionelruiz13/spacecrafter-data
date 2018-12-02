@@ -1,3 +1,4 @@
+flag stars_trace off
 set auto_move_duration 0
 flag planet_orbits off
 image name black filename none.png coordinate_system viewport alpha 0 scale 1 action load

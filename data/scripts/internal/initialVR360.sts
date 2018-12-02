@@ -1,25 +1,25 @@
 position action save
+flag stars_trace off
+image name black filename none.png coordinate_system viewport alpha 0 scale 1 action load
+wait duration 0.1
+image name black alpha 1 duration 1
 flag planets off
 flag stars off
 flag milky_way off
 flag nebulae off
+flag bright_nebulae off
 flag atmosphere off
 flag landscape off
 timerate rate 0
-wait duration 2
+wait duration 1
 set heading 180
 zoom auto out duration 0
 moveto lat -60 lon 0 alt 0 duration 0
 date utc 2016:03:20T12:00:00
-
 set auto_move_duration 0
-image name black filename dome/black.png coordinate_system viewport alpha 0 scale 1 action load
-wait duration 0.2
-image name black alpha 1 duration 1
-wait duration 1
 flag nebulae off
 flag bright_nebulae off
-flag suntrace off
+flag body_trace off
 flag constellation_art off
 flag constellation_boundaries off
 flag constellation_names off
@@ -54,7 +54,7 @@ flag vernal_points off
 flag vertical_line off
 flag zenith_line off
 flag zodiac off
-suntrace action clear
+body_trace action clear
 flag body_trace off
 planet_scale name Mercury scale 1
 planet_scale name Venus scale 1
@@ -72,6 +72,9 @@ flag landscape off
 flag planets_axis off
 flag planet_names off
 flag sun_scaled off
+wait duration 0.5
+set screen_fader 0
 image name black alpha 0 duration 1
-wait duration 1.5
+flag nebulae off
+wait duration 1
 set auto_move_duration 5
