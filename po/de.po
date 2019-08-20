@@ -1136,7 +1136,7 @@ msgstr ""
 
 #: src/translations.h:135 src/s_gui.cpp:2807
 msgid "E"
-msgstr "Osten"
+msgstr "O"
 
 #: src/translations.h:43
 msgid "Earth"
@@ -2633,7 +2633,7 @@ msgstr ""
 
 #: src/translations.h:133 src/s_gui.cpp:2804
 msgid "N"
-msgstr "Norden"
+msgstr "N"
 
 #: src/translations.h:846
 msgid "NGC1275 PerseusA"
@@ -3308,7 +3308,7 @@ msgstr ""
 
 #: src/translations.h:134 src/s_gui.cpp:2805
 msgid "S"
-msgstr "Süden"
+msgstr "S"
 
 #: src/translations.h:147
 msgid "SEP"
@@ -4173,7 +4173,7 @@ msgstr "Fuchs"
 
 #: src/translations.h:136 src/s_gui.cpp:2808
 msgid "W"
-msgstr "Westen"
+msgstr "W"
 
 #: src/translations.h:308
 msgid "Wall"

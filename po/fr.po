@@ -309,7 +309,7 @@ msgstr "Alya"
 
 #: src/translations.h:54
 msgid "Amalthea"
-msgstr "Almalthee"
+msgstr "Amalthee"
 
 #: src/translations.h:61
 msgid "Ananke"
@@ -3371,7 +3371,7 @@ msgstr "Lapon"
 
 #: src/translations.h:113
 msgid "Sao"
-msgstr "Sao"
+msgstr "Psamathe"
 
 #: src/translations.h:417
 msgid "Sapt Rishi"
