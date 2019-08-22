@@ -1,8 +1,8 @@
 # translation of fr.po to
-# French translations for.spacecrafter package
-# Traduction anglaise du package.spacecrafter.
+# French translations for SpaceCrafter package
+# Traduction anglaise du package SpaceCrafter.
 # Copyright (C) 2004, 2005, 2006 Free Software Foundation, Inc.
-# This file is distributed under the same license as the.spacecrafter package.
+# This file is distributed under the same license as the spacecrafter package.
 # Fabien Chéreau, 2006.
 # Fabien Chéreau, 2006.
 # Fabien Chéreau, 2006.
@@ -29,13 +29,14 @@ msgstr ""
 "X-Generator: Launchpad (build 16445)\n"
 
 #: src/ui.cpp:717
+#, fuzzy
 msgid ""
 "   Please check for newer versions and send bug reports\n"
 "    and comments to us at: http:/.spacecraftersoftware.org\n"
 "\n"
 msgstr ""
 "   Vérifiez que vous ayez la dernière version\n"
-"et envoyez vos remarques à : http:/.spacecraftersoftware.org\n"
+"et envoyez vos remarques à : http://spacecrafter.org\n"
 "\n"
 
 #: src/main.cpp:88
@@ -45,19 +46,19 @@ msgstr "%s : Mauvais argument(s) de ligne de commande\n"
 
 #: src/ui_conf.cpp:975
 msgid ": Exceptional Leonid rate"
-msgstr "fréquence Léonides exceptionnelle"
+msgstr "Pluie d'étoiles filantes exceptionnelle"
 
 #: src/ui_conf.cpp:980
 msgid ": Highest rate ever (1966 Leonids)"
-msgstr "fréquence record (Léonides 1966)"
+msgstr ": Pluie record (Léonides 1966)"
 
 #: src/ui_conf.cpp:965
 msgid ": Normal rate"
-msgstr "fréquence normale"
+msgstr ": Taux normal"
 
 #: src/ui_conf.cpp:970
 msgid ": Standard Perseids rate"
-msgstr "fréquence standard Perséides"
+msgstr ": Taux standard pour les Perséides"
 
 #: src/translations.h:780
 msgid "A'a"
@@ -205,7 +206,7 @@ msgstr "Alioth"
 
 #: src/translations.h:520
 msgid "Alkaid"
-msgstr "Alkaid"
+msgstr "Alkaïd"
 
 #: src/translations.h:521
 msgid "Alkalurops"
@@ -221,7 +222,7 @@ msgstr "Almaak"
 
 #: src/translations.h:524
 msgid "Alnair"
-msgstr "Alnair"
+msgstr "Alnaïr"
 
 #: src/translations.h:525
 msgid "Alnasl"
@@ -265,7 +266,7 @@ msgstr "Alshain"
 
 #: src/ui_conf.cpp:142
 msgid "Also display Nebulas without textures"
-msgstr "Affiche aussi les nébuleuses qui n'ont pas de rendu"
+msgstr "Affiche aussi les nébuleuses qui n'ont pas d'image"
 
 #: src/nebula.cpp:117 src/planet.cpp:270 src/planet.cpp:319
 msgid "Alt/Az: "
@@ -273,11 +274,11 @@ msgstr "Alt/Az : "
 
 #: src/translations.h:536
 msgid "Altair"
-msgstr "Altair"
+msgstr "Altaïr"
 
 #: src/translations.h:537
 msgid "Altais"
-msgstr "Altais"
+msgstr "Altaïs"
 
 #: src/translations.h:538
 msgid "Alterf"
@@ -309,7 +310,7 @@ msgstr "Alya"
 
 #: src/translations.h:54
 msgid "Amalthea"
-msgstr "Amalthee"
+msgstr "Amalthée"
 
 #: src/translations.h:61
 msgid "Ananke"
@@ -345,7 +346,7 @@ msgstr "Antarès"
 
 #: src/ui_tuiconf.cpp:624
 msgid "Antialias Lines: "
-msgstr "Lignes Antialiasées "
+msgstr "Lignes antialiasées "
 
 #: src/translations.h:222
 msgid "Antlia"
@@ -401,7 +402,7 @@ msgstr "Arneb"
 
 #: src/ui.cpp:754
 msgid "Arrow Keys"
-msgstr "Flêches directionelles"
+msgstr "Flêches directionnelles"
 
 #: src/ui_tuiconf.cpp:815 src/ui_tuiconf.cpp:821
 msgid "Arrow down to load list."
@@ -525,11 +526,11 @@ msgstr "Écope"
 
 #: src/translations.h:380
 msgid "Banner of Three Stars"
-msgstr "Bannière des Trois Étoiles"
+msgstr "Bannière des trois étoiles"
 
 #: src/translations.h:561
 msgid "Barnard's Star"
-msgstr "L'étoile Barnard"
+msgstr "L'étoile de Barnard"
 
 #: src/ui_tuiconf.cpp:645
 msgid "Basis: "
@@ -561,7 +562,7 @@ msgstr "Bernes 135"
 
 #: src/translations.h:566
 msgid "Betelgeuse"
-msgstr "Betelgeuse"
+msgstr "Bételgeuse"
 
 #: src/translations.h:445
 msgid "Bharani"
@@ -585,7 +586,7 @@ msgstr "Oiseau"
 
 #: src/translations.h:413
 msgid "Blubber Container"
-msgstr "Container flottants"
+msgstr "Pot à graisse"
 
 #: src/translations.h:269 src/translations.h:340
 msgid "Boat"
@@ -593,11 +594,11 @@ msgstr "Bateau"
 
 #: src/ui_conf.cpp:153
 msgid "Bodies"
-msgstr "Corps du système solaire"
+msgstr "Objets du système solaire"
 
 #: src/ui.cpp:677 src/ui.cpp:774 src/ui_conf.cpp:165 src/ui_tuiconf.cpp:588
 msgid "Body Labels"
-msgstr "Noms des corps du système solaire"
+msgstr "Noms des objets du système solaire"
 
 #: src/ui.cpp:810 src/ui_tuiconf.cpp:589
 msgid "Body Orbits"
@@ -657,7 +658,7 @@ msgstr "Caliban"
 
 #: src/translations.h:859
 msgid "California Nebula"
-msgstr "Nébuleuse de Californie"
+msgstr "Nébuleuse Californie"
 
 #: src/translations.h:53
 msgid "Callisto"
@@ -669,7 +670,7 @@ msgstr "Girafe"
 
 #: src/translations.h:569
 msgid "Campbell's Star"
-msgstr "L'étoile Campbell"
+msgstr "L'étoile de Campbell"
 
 #: src/s_gui.cpp:2370 src/s_gui.cpp:2413
 msgid "Cancel"
@@ -757,7 +758,7 @@ msgstr "Centaure"
 
 #: src/ui.cpp:762
 msgid "Center on selected object"
-msgstr "Centrer sur l'objet à sélectionner"
+msgstr "Centrer sur l'objet sélectionné"
 
 #: src/translations.h:186
 msgid "Cepheus"
@@ -765,7 +766,7 @@ msgstr "Céphée"
 
 #: src/translations.h:48
 msgid "Ceres"
-msgstr "Ceres"
+msgstr "Cérès"
 
 #: src/translations.h:174
 msgid "Cetus"
@@ -825,7 +826,7 @@ msgstr "Grenier circulaire"
 
 #: src/ui_tuiconf.cpp:600
 msgid "Circumpolar Circle"
-msgstr "Cercle Circumpolaire"
+msgstr "Cercle circumpolaire"
 
 #: src/ui.cpp:812
 msgid "Clouds"
@@ -837,7 +838,7 @@ msgstr "Lanière enroulée"
 
 #: src/translations.h:407
 msgid "Collarbones"
-msgstr "Lignes des constellations"
+msgstr "Clavicule"
 
 #: src/ui_tuiconf.cpp:536
 msgid "Colors "
@@ -857,7 +858,7 @@ msgstr "Comètes"
 
 #: src/ui.cpp:1220
 msgid "Command recording stopped."
-msgstr "Enregistrement des commandes arrêté."
+msgstr "Enregistrement des commandes stoppé."
 
 #: src/ui.cpp:674 src/ui.cpp:789 src/ui_conf.cpp:45
 msgid "Configuration"
@@ -925,7 +926,7 @@ msgstr "Cujam"
 
 #: src/translations.h:101
 msgid "Cupid"
-msgstr "Cupid"
+msgstr "Cupidon"
 
 #: src/ui_conf.cpp:265
 msgid "Current Time :"
@@ -933,7 +934,7 @@ msgstr "Heure actuelle :"
 
 #: src/ui_conf.cpp:1020
 msgid "Current Time Speed is x"
-msgstr "La vitesse du temps actuelle est x"
+msgstr "La vitesse de défilement du temps est x"
 
 #: src/translations.h:580
 msgid "Cursa"
@@ -985,7 +986,7 @@ msgstr "Jour"
 
 #: src/ui_tuiconf.cpp:553
 msgid "Day keys: "
-msgstr "Touche jours: "
+msgstr "Touche des jours: "
 
 #: src/translations.h:775
 msgid "Day star"
@@ -993,7 +994,7 @@ msgstr "L'étoile du jour"
 
 #: src/ui.cpp:699 src/ui.cpp:800
 msgid "Decrease Time Rate"
-msgstr "Diminuer l'écoulement du temps"
+msgstr "Diminuer le défilement du temps"
 
 #: src/ui_tuiconf.cpp:647
 msgid "Deepsky: "
@@ -1001,7 +1002,7 @@ msgstr "Ciel Profond : "
 
 #: src/translations.h:47
 msgid "Deimos "
-msgstr "Deimos "
+msgstr "Déimos "
 
 #: src/translations.h:198
 msgid "Delphinus"
@@ -1015,15 +1016,15 @@ msgstr "Script de démonstration absent (demo.sts)"
 
 #: src/translations.h:582
 msgid "Deneb"
-msgstr "Deneb"
+msgstr "Déneb"
 
 #: src/translations.h:583
 msgid "Deneb Algedi"
-msgstr "Deneb Algedi"
+msgstr "Déneb Algedi"
 
 #: src/translations.h:584
 msgid "Denebola"
-msgstr "Denebola"
+msgstr "Dénébola"
 
 #: src/translations.h:84
 msgid "Desdemona"
@@ -1111,7 +1112,7 @@ msgstr "Dragon"
 
 #: src/translations.h:458
 msgid "Dried Willow"
-msgstr "Saule Sec"
+msgstr "Saule Séché"
 
 #: src/translations.h:298
 msgid "Drum"
@@ -1131,7 +1132,7 @@ msgstr "Dubhe"
 
 #: src/ui.cpp:819
 msgid "During Script Playback:"
-msgstr "Pendant la lecture du script"
+msgstr "Pendant la lecture du script:"
 
 #: src/translations.h:125
 msgid "Dwarf Planets"
@@ -1179,7 +1180,7 @@ msgstr "Égyptien"
 
 #: src/translations.h:816
 msgid "Einstein Cross"
-msgstr "Einstein Cross"
+msgstr "Croix d'Einstein"
 
 #: src/translations.h:56
 msgid "Elara"
@@ -1278,7 +1279,7 @@ msgstr "FEV"
 
 #: src/translations.h:836
 msgid "Face On Galaxy"
-msgstr "La face de la galaxie"
+msgstr "Galaxie vue de face"
 
 #: src/translations.h:372
 msgid "Farmland"
@@ -1302,7 +1303,7 @@ msgstr "Ferdinand"
 
 #: src/translations.h:268
 msgid "Ferry Boat"
-msgstr "Ferry"
+msgstr "Ferry-boat"
 
 #: src/translations.h:452
 msgid "Fireplace"
@@ -1318,11 +1319,11 @@ msgstr "Premier homme mince"
 
 #: src/translations.h:317
 msgid "Five Chariots"
-msgstr "Cinq Chariots"
+msgstr "Cinq chariots"
 
 #: src/translations.h:329
 msgid "Five Feudal Kings"
-msgstr "Cinq Rois féodaux"
+msgstr "Cinq rois féodaux"
 
 #: src/translations.h:363
 msgid "Flail"
@@ -1346,7 +1347,7 @@ msgstr "Troupeau"
 
 #: src/translations.h:312
 msgid "Flying Corridor"
-msgstr "couloir aérien"
+msgstr "Couloir aérien"
 
 #: src/ui.cpp:779 src/ui_conf.cpp:222
 msgid "Fog"
@@ -1370,15 +1371,15 @@ msgstr "Fourneau"
 
 #: src/ui.cpp:804
 msgid "Forward 24 Hours"
-msgstr "Suivre pendant 24 heure"
+msgstr "Avancer de 24 heures"
 
 #: src/ui.cpp:806
 msgid "Forward 7 Days"
-msgstr "7 jours après"
+msgstr "Avancer de 7 jours"
 
 #: src/translations.h:325
 msgid "Four Channels"
-msgstr "Quatre Canaux"
+msgstr "Quatre canaux"
 
 #: src/translations.h:399
 msgid "Fox"
@@ -1403,6 +1404,10 @@ msgstr "Aller à"
 #: src/translations.h:595
 msgid "Gacrux"
 msgstr "Gacrux"
+
+#: src/s_gui.cpp:2999
+msgid "Galactic Grid"
+msgstr "Grille galactique"
 
 #: src/translations.h:108
 msgid "Galatea"
@@ -1462,7 +1467,7 @@ msgstr "Amas globulaire Ara"
 
 #: src/ui.cpp:791 src/ui.cpp:813
 msgid "Go to Selected Body"
-msgstr "Aller au corps céleste sélectionné"
+msgstr "Aller à l'objet sélectionné"
 
 #: src/translations.h:599
 msgid "Gomeisa"
@@ -1474,7 +1479,7 @@ msgstr "Bonne Courge"
 
 #: src/translations.h:307
 msgid "Great General"
-msgstr "Grand Général"
+msgstr "Grand général"
 
 #: src/ui.cpp:662 src/ui.cpp:777 src/ui_conf.cpp:206
 msgid "Ground"
@@ -1490,11 +1495,11 @@ msgstr "Grue"
 
 #: src/translations.h:776
 msgid "Guide star"
-msgstr "L'étoile du guide"
+msgstr "L'étoile-guide"
 
 #: src/translations.h:838
 msgid "H II LMC"
-msgstr "H II LMC"
+msgstr "Région HII de LMC"
 
 #: src/translations.h:601
 msgid "Hadar"
@@ -1522,7 +1527,7 @@ msgstr "Hawaiki"
 
 #: src/ui_tuiconf.cpp:547
 msgid "Heading: "
-msgstr "En tête "
+msgstr "Direction: "
 
 #: src/translations.h:359
 msgid "Heart"
@@ -1682,7 +1687,7 @@ msgstr "Passage impérial"
 
 #: src/ui.cpp:703 src/ui.cpp:802
 msgid "Increase Time Rate"
-msgstr "Augmenter l'écoulement du temps"
+msgstr "Augmenter le défilement du temps"
 
 #: src/translations.h:214
 msgid "Indus"
@@ -1698,11 +1703,11 @@ msgstr "Information"
 
 #: src/translations.h:830
 msgid "Interacting Galaxies"
-msgstr "Des galaxies interactives"
+msgstr "Galaxies en interaction"
 
 #: src/ui_tuiconf.cpp:633
 msgid "Internal Script: "
-msgstr "Script interne "
+msgstr "Script interne: "
 
 #: src/translations.h:156
 msgid "Inuit"
@@ -1814,7 +1819,7 @@ msgstr "Keoe"
 
 #: src/translations.h:825
 msgid "Keyhole Nebula"
-msgstr "Nébuleuse Keyhole"
+msgstr "Nébuleuse du trou de serrure"
 
 #: src/translations.h:279
 msgid "Khanuwy Fish"
@@ -1854,7 +1859,7 @@ msgstr "Kruger 60"
 
 #: src/translations.h:130
 msgid "Kuiper Belt Objects"
-msgstr "Les objets de la ceinture de Kuiper"
+msgstr "Objets de la ceinture de Kuiper"
 
 #: src/translations.h:614
 msgid "Kurhah"
@@ -1862,7 +1867,7 @@ msgstr "Kurhah"
 
 #: src/translations.h:848
 msgid "LMC Supernova Remnant"
-msgstr "LMC Supernova Remnant"
+msgstr "Reste de supernova dans LMC"
 
 #: src/translations.h:215
 msgid "Lacerta"
@@ -1934,7 +1939,7 @@ msgstr "Lehua-Kona"
 
 #: src/ui_tuiconf.cpp:671
 msgid "Lens Below Dome Center"
-msgstr "Objectif sous le centre du dôme"
+msgstr "Objectif devant le centre du dôme"
 
 #: src/ui_tuiconf.cpp:670
 msgid "Lens at Dome Center"
@@ -1962,7 +1967,7 @@ msgstr "Balance"
 
 #: src/ui_tuiconf.cpp:605
 msgid "Light Pollution Limiting Magnitude: "
-msgstr "Magnitude de limite de pollution lumineuse: "
+msgstr "Magnitude limite de pollution lumineuse: "
 
 #: src/ui_tuiconf.cpp:579
 msgid "Limiting Magnitude: "
@@ -1970,7 +1975,7 @@ msgstr "Magnitude limite : "
 
 #: src/ui_tuiconf.cpp:625
 msgid "Line Width: "
-msgstr "Largeur de ligne "
+msgstr "Largeur de ligne : "
 
 #: src/translations.h:262
 msgid "Lion"
@@ -2010,7 +2015,7 @@ msgstr "Chargement du catalogue "
 
 #: src/ui_tuiconf.cpp:629
 msgid "Local Script: "
-msgstr "Scripts locaux : "
+msgstr "Script local : "
 
 #: src/ui_conf.cpp:550
 msgid "Location"
@@ -2354,7 +2359,7 @@ msgstr "Magnitude : "
 
 #: src/translations.h:618
 msgid "Maia"
-msgstr "Maia"
+msgstr "Maïa"
 
 #: src/translations.h:395
 msgid "Mama Llama"
@@ -2366,7 +2371,7 @@ msgstr "Homme aux pieds écartés"
 
 #: src/translations.h:479
 msgid "Man's Cart"
-msgstr "Chariot de l'Homme"
+msgstr "Chariot de l'homme"
 
 #: src/ui_tuiconf.cpp:607
 msgid "Manual zoom: "
@@ -2394,7 +2399,7 @@ msgstr "Marché"
 
 #: src/translations.h:379
 msgid "Market Officer"
-msgstr "Officier du Marché"
+msgstr "Agent commercial"
 
 #: src/translations.h:45
 msgid "Mars"
@@ -2434,7 +2439,7 @@ msgstr "Mebsuta"
 
 #: src/translations.h:624
 msgid "Megrez"
-msgstr "Megrez"
+msgstr "Mégrez"
 
 #: src/translations.h:625
 msgid "Meissa"
@@ -2478,7 +2483,7 @@ msgstr "Merga"
 
 #: src/translations.h:824
 msgid "Merging Galaxies"
-msgstr "La fusion des galaxies"
+msgstr "Galaxies fusionnées"
 
 #: src/ui.cpp:772
 msgid "Meridian"
@@ -2490,7 +2495,7 @@ msgstr "Méridien céleste"
 
 #: src/translations.h:633
 msgid "Merope"
-msgstr "Merope"
+msgstr "Mérope"
 
 #: src/translations.h:634
 msgid "Mesarthim"
@@ -2498,11 +2503,11 @@ msgstr "Mesarthim"
 
 #: src/ui_conf.cpp:984
 msgid "Meteor Rate per minute"
-msgstr "Nb de météores par minute :"
+msgstr "Météores par minute"
 
 #: src/translations.h:65
 msgid "Metis"
-msgstr "Metis"
+msgstr "Métis"
 
 #: src/translations.h:635
 msgid "Miaplacidus"
@@ -2554,7 +2559,7 @@ msgstr "Mirzam"
 
 #: src/ui.cpp:826
 msgid "Miscellaneous:"
-msgstr "Divers"
+msgstr "Divers :"
 
 #: src/translations.h:642
 msgid "Mizar"
@@ -2582,11 +2587,11 @@ msgstr "Lune"
 
 #: src/ui_conf.cpp:158
 msgid "Moon Scale"
-msgstr "Grossissement de la lune"
+msgstr "Grossissement de la Lune"
 
 #: src/translations.h:126
 msgid "Moons"
-msgstr "Les satellites naturels"
+msgstr "Satellites naturels"
 
 #: src/translations.h:282
 msgid "Mooring Post"
@@ -2594,7 +2599,7 @@ msgstr "Point de Mouillage"
 
 #: src/translations.h:489
 msgid "Morning Star"
-msgstr "Etoile du matin"
+msgstr "Étoile du matin"
 
 #: src/translations.h:346
 msgid "Mortar"
@@ -2682,11 +2687,11 @@ msgstr "Navajo"
 
 #: src/translations.h:388
 msgid "Navigator's Triangle"
-msgstr "Triangle du Navigateur"
+msgstr "Triangle du navigateur"
 
 #: src/ui_tuiconf.cpp:598
 msgid "Nebula Circles"
-msgstr "Cercles des nébuleuses"
+msgstr "Cercles pour objets du ciel profond"
 
 #: src/ui.cpp:668 src/ui.cpp:773 src/ui_tuiconf.cpp:597
 msgid "Nebula Labels"
@@ -2710,7 +2715,7 @@ msgstr "Neptune"
 
 #: src/translations.h:104
 msgid "Neried"
-msgstr "Neried"
+msgstr ""
 
 #: src/translations.h:115
 msgid "Neso"
@@ -2763,7 +2768,7 @@ msgstr "OK"
 
 #: src/translations.h:80
 msgid "Oberon"
-msgstr "Oberon"
+msgstr "Obéron"
 
 #: src/ui_conf.cpp:678
 msgid "Object Search"
@@ -2783,7 +2788,7 @@ msgstr "Oméga du Centaure"
 
 #: src/translations.h:82
 msgid "Ophelia"
-msgstr "Ophelia"
+msgstr "Ophélie"
 
 #: src/translations.h:227
 msgid "Ophiuchus"
@@ -2835,19 +2840,19 @@ msgstr "Pasiphae"
 
 #: src/ui_tuiconf.cpp:498
 msgid "Password must be more than 3 characters"
-msgstr "Le mot de passe doit être de plus de 3 caractères"
+msgstr "Le mot de passe doit faire plus de 3 caractères"
 
 #: src/ui_tuiconf.cpp:497
 msgid "Password updated successfully"
-msgstr "mot de passe mis à jour"
+msgstr "Mot de passe mis à jour"
 
 #: src/ui_tuiconf.cpp:496
 msgid "Passwords do not match"
-msgstr "Le mot de passe n'est pas correct"
+msgstr "Mot de passe incorrect"
 
 #: src/ui.cpp:821
 msgid "Pause Script"
-msgstr "Pause du script"
+msgstr "Mettre le script en pause"
 
 #: src/ui.cpp:797
 msgid "Pause Time"
@@ -2859,7 +2864,7 @@ msgstr "Paon"
 
 #: src/translations.h:653
 msgid "Peacock"
-msgstr "Peacock"
+msgstr "Paon"
 
 #: src/translations.h:230
 msgid "Pegasus"
@@ -2915,11 +2920,11 @@ msgstr "Poisson austral"
 
 #: src/ui_tuiconf.cpp:612
 msgid "Planet Size Marginal Limit: "
-msgstr "Limite de taille pour une planète "
+msgstr "Taille limite pour une planète : "
 
 #: src/translations.h:827
 msgid "Planetary Nebula Aquila"
-msgstr "Planétaire de la nébuleuse Aquila"
+msgstr "Nébuleuse planétaire de l'Aigle"
 
 #: src/translations.h:124
 msgid "Planets"
@@ -2935,7 +2940,7 @@ msgstr "Lancer le script de démonstration"
 
 #: src/translations.h:657
 msgid "Pleione"
-msgstr "Pleione"
+msgstr "Pléione"
 
 #: src/translations.h:116
 msgid "Pluto"
@@ -2975,11 +2980,11 @@ msgstr "Cercle de précession"
 
 #: src/ui_tuiconf.cpp:556
 msgid "Preset Sky Time: "
-msgstr "Temps préréglé : "
+msgstr "Heure par défaut : "
 
 #: src/ui_tuiconf.cpp:559
 msgid "Preset Time"
-msgstr "Heure préréglée"
+msgstr "Heure par défaut"
 
 #: src/translations.h:661
 msgid "Procyon"
@@ -2987,7 +2992,7 @@ msgstr "Procyon"
 
 #: src/ui_conf.cpp:492
 msgid "Program Language: "
-msgstr "Langue du programme : "
+msgstr "Langue du logiciel : "
 
 #: src/ui_conf.cpp:384
 msgid "Projection :"
@@ -2995,11 +3000,11 @@ msgstr "Projection :"
 
 #: src/ui_tuiconf.cpp:668
 msgid "Projection Configuration: "
-msgstr "Configuration de la projection "
+msgstr "Configuration de la projection : "
 
 #: src/ui_tuiconf.cpp:664
 msgid "Projector Offset (percent of dome radius): "
-msgstr "Décalage du projecteur (pourcentage du rayon du dôme) "
+msgstr "Décalage du projecteur (pourcentage du rayon du dôme) : "
 
 #: src/translations.h:662
 msgid "Propus"
@@ -3011,7 +3016,7 @@ msgstr "Prospero"
 
 #: src/translations.h:110
 msgid "Proteus"
-msgstr "Proteus"
+msgstr "Protéus"
 
 #: src/translations.h:272
 msgid "Prow"
@@ -3163,7 +3168,7 @@ msgstr "Rastaban"
 
 #: src/ui_tuiconf.cpp:496
 msgid "Re-enter password: "
-msgstr "Réécrire le mot de passe "
+msgstr "Retaper le mot de passe : "
 
 #: src/ui.cpp:701 src/ui.cpp:801
 msgid "Real Time Rate"
@@ -3171,7 +3176,7 @@ msgstr "Temps réel"
 
 #: src/ui.cpp:1225
 msgid "Recording commands to script file:\n"
-msgstr "Enregistre les commandes dans le fichier script :\n"
+msgstr "Enregistre les commandes dans un fichier script :\n"
 
 #: src/translations.h:668
 msgid "Red Rectangle"
@@ -3179,7 +3184,7 @@ msgstr "Le rectangle rouge"
 
 #: src/translations.h:826
 msgid "Reflection Nebula Orion"
-msgstr "Le reflet de la nébuleuse d'Orion"
+msgstr "Nébuleuse par réflexion d'Orion"
 
 #: src/translations.h:669
 msgid "Regor"
@@ -3187,7 +3192,7 @@ msgstr "Regor"
 
 #: src/translations.h:670
 msgid "Regulus"
-msgstr "Regulus"
+msgstr "Régulus"
 
 #: src/ui_conf.cpp:553
 msgid "Rendering"
@@ -3195,19 +3200,19 @@ msgstr "Rendu"
 
 #: src/ui.cpp:815
 msgid "Replay Last Script"
-msgstr "Répéter le dernier script"
+msgstr "Rejouer le dernier script"
 
 #: src/ui_tuiconf.cpp:679
 msgid "Reset Password: "
-msgstr "réinitialiser le mot de passe "
+msgstr "Réinitialiser le mot de passe : "
 
 #: src/ui_conf.cpp:417
 msgid "Restart program for"
-msgstr "Relancer le programme pour"
+msgstr "Relancer le logiciel pour"
 
 #: src/ui.cpp:823
 msgid "Resume Script"
-msgstr "Reprendre le script"
+msgstr "Continuer le script"
 
 #: src/translations.h:243
 msgid "Reticulum"
@@ -3219,7 +3224,7 @@ msgstr "Nébuleuse de la rétine"
 
 #: src/ui.cpp:705 src/ui.cpp:799
 msgid "Return to Current Time"
-msgstr "Revenir à l'heure actuelle [8]"
+msgstr "Revenir à l'heure actuelle"
 
 #: src/translations.h:443
 msgid "Revati"
@@ -3227,11 +3232,11 @@ msgstr "Revati"
 
 #: src/translations.h:466
 msgid "Revolving Female"
-msgstr "Première Femme"
+msgstr "Première femme"
 
 #: src/translations.h:465
 msgid "Revolving Male"
-msgstr "Premier Homme"
+msgstr "Homme tournant"
 
 #: src/translations.h:71
 msgid "Rhea"
@@ -3287,7 +3292,7 @@ msgstr "Rosalind"
 
 #: src/translations.h:855
 msgid "Rosetta Nebula"
-msgstr "Rosetta Nebula"
+msgstr "Nébuleuse de la Rosette"
 
 #: src/translations.h:673
 msgid "Rotanev"
@@ -3319,7 +3324,7 @@ msgstr "SEP"
 
 #: src/translations.h:817
 msgid "SN Remnant HH30"
-msgstr "SN Remnant HH30"
+msgstr "Rémanant de supernova HH30"
 
 #: src/translations.h:676
 msgid "Sabik"
@@ -3387,7 +3392,7 @@ msgstr "Satbhisaj"
 
 #: src/ui_tuiconf.cpp:590
 msgid "Satellite Orbits"
-msgstr "Les orbites des satellites"
+msgstr "Orbites des satellites"
 
 #: src/translations.h:66
 msgid "Saturn"
@@ -3395,12 +3400,12 @@ msgstr "Saturne"
 
 #: src/ui_tuiconf.cpp:654
 msgid "Save Current Configuration as Default: "
-msgstr "Enregistre la configuration courante comme défaut : "
+msgstr "Enregistrer la configuration actuelle : "
 
 #: src/ui_conf.cpp:252 src/ui_conf.cpp:441 src/ui_conf.cpp:480
 #: src/ui_conf.cpp:541
 msgid "Save as default"
-msgstr "Enregistre comme défaut"
+msgstr "Enregistrer par défaut"
 
 #: src/ui_conf.cpp:361
 msgid "Save location"
@@ -3416,7 +3421,7 @@ msgstr "Paravent"
 
 #: src/ui_conf.cpp:412
 msgid "Screen Resolution :"
-msgstr "Résolution de l'écran :"
+msgstr "Résolution de l'écran : "
 
 #: src/ui.cpp:687
 msgid "Script Command"
@@ -3424,7 +3429,7 @@ msgstr "Commande de script"
 
 #: src/ui.cpp:580
 msgid "Script commander"
-msgstr "Commandes de script"
+msgstr "Gestionnaire de scripts"
 
 #: src/ui_tuiconf.cpp:538
 msgid "Scripts "
@@ -3504,11 +3509,11 @@ msgstr "Setebos"
 
 #: src/translations.h:315
 msgid "Seven Excellencies"
-msgstr "Sept Excellences"
+msgstr "Sept excellences"
 
 #: src/translations.h:457
 msgid "Seven Little Girls"
-msgstr "Sept Petites Filles"
+msgstr "Sept petites filles"
 
 #: src/translations.h:248
 msgid "Sextans"
@@ -3568,7 +3573,7 @@ msgstr "Shwan"
 
 #: src/ui_tuiconf.cpp:555
 msgid "Sidereal"
-msgstr "Sideral"
+msgstr "Sidéral"
 
 #: src/translations.h:58
 msgid "Sinope"
@@ -3592,7 +3597,7 @@ msgstr "Skat"
 
 #: src/ui_conf.cpp:527 src/ui_tuiconf.cpp:568
 msgid "Sky Culture: "
-msgstr "Civilisation du ciel : "
+msgstr "Mythologie céleste : "
 
 #: src/ui_conf.cpp:509 src/ui_tuiconf.cpp:572
 msgid "Sky Language: "
@@ -3604,7 +3609,7 @@ msgstr "Le soutien du ciel"
 
 #: src/ui_tuiconf.cpp:557
 msgid "Sky Time At Start-up: "
-msgstr "Temps sidéral au démarrage : "
+msgstr "Heure au démarrage : "
 
 #: src/ui_tuiconf.cpp:550
 msgid "Sky Time: "
@@ -3636,19 +3641,23 @@ msgstr "Rivière méridionale"
 
 #: src/translations.h:777
 msgid "South star"
-msgstr "L'étoile du sud"
+msgstr "L'étoile du Sud"
 
 #: src/translations.h:819
 msgid "Southern Ring Nebula"
-msgstr "La nébuleuse de l'anneau du sud"
+msgstr "La nébuleuse de l'anneau du Sud"
 
 #: src/translations.h:129
 msgid "Spacecraft"
-msgstr "Vaissaux spatials"
+msgstr "Vaisseau spatial"
 
 #: src/translations.h:364
 msgid "Spear"
 msgstr "Lance"
+
+#: src/s_gui.cpp:2999
+msgid "Spectral Type: "
+msgstr "Type spectral : "
 
 #: src/translations.h:693
 msgid "Spica"
@@ -3656,15 +3665,15 @@ msgstr "Spica"
 
 #: src/translations.h:823
 msgid "Spiral Galaxy Coma"
-msgstr "La galaxie spirale du coma"
+msgstr "La galaxie spirale de la chevelure de Bérénice"
 
 #: src/translations.h:854
 msgid "Spiral Galaxy Leo"
-msgstr "Galaxie spirale du lion"
+msgstr "Galaxie spirale du Lion"
 
 #: src/translations.h:828
 msgid "Spirograph Nebula"
-msgstr "Spirographe de la nébuleuse"
+msgstr "Nébuleuse du Spirograph"
 
 #: src/translations.h:361
 msgid "Spring"
@@ -3688,11 +3697,11 @@ msgstr "Noms d'étoiles"
 
 #: src/ui_conf.cpp:72
 msgid "Star Labels. Up to mag :"
-msgstr "Noms d'étoiles jusqu'à magnitude :"
+msgstr "Noms d'étoiles jusqu'à la magnitude :"
 
 #: src/ui_tuiconf.cpp:611
 msgid "Star Size Limit: "
-msgstr "Limite de taille pour une étoile "
+msgstr "Taille limite pour les étoiles : "
 
 #: src/ui_conf.cpp:84
 msgid "Star Twinkle. Amount :"
@@ -3712,11 +3721,11 @@ msgstr "Étoiles "
 
 #: src/translations.h:851
 msgid "Stars Forming M33"
-msgstr "formation d'étoiles M33"
+msgstr "Nébuleuse dans M33"
 
 #: src/translations.h:829
 msgid "Stars Forming SMC"
-msgstr "Formation des étoiles SMC"
+msgstr "Nébuleuses dans SMC"
 
 #: src/translations.h:287
 msgid "Stars of Water"
@@ -3732,7 +3741,7 @@ msgstr "Estomac"
 
 #: src/ui.cpp:798
 msgid "Stop Time"
-msgstr "Arreter le temps"
+msgstr "Arrêter le temps"
 
 #: src/translations.h:694
 msgid "Sualocin"
@@ -3756,7 +3765,7 @@ msgstr "Soleil"
 
 #: src/translations.h:821
 msgid "Supernova Remnant"
-msgstr "Supernova Remnant"
+msgstr "Reste de supernova"
 
 #: src/translations.h:337
 msgid "Supreme Palace"
@@ -3772,7 +3781,7 @@ msgstr "Sycorax"
 
 #: src/ui_tuiconf.cpp:665
 msgid "Synchronize Internal Drive from USB Drive: "
-msgstr "Synchroniser le disque interne par rapport à l'USB "
+msgstr "Synchroniser le disque interne avec l'USB : "
 
 #: src/translations.h:698
 msgid "Syrma"
@@ -3784,7 +3793,7 @@ msgstr "Queue"
 
 #: src/ui.cpp:793
 msgid "Take Screenshot"
-msgstr "Faire une capture d'écran"
+msgstr "Capture d'écran"
 
 #: src/translations.h:699
 msgid "Talitha"
@@ -3832,11 +3841,11 @@ msgstr "Téthys"
 
 #: src/ui.cpp:788
 msgid "Text Menu"
-msgstr "Menu texte"
+msgstr "Menu textuel"
 
 #: src/translations.h:835
 msgid "Thackerays Globules"
-msgstr "Le corpuscule de Thackeray"
+msgstr "Les globules de Thackeray"
 
 #: src/translations.h:106
 msgid "Thalassa"
@@ -3848,7 +3857,7 @@ msgstr "Champ de bataille d'Asar"
 
 #: src/translations.h:477
 msgid "The Fishermen"
-msgstr "Pêcheur"
+msgstr "Les pêcheurs"
 
 #: src/translations.h:706
 msgid "The Garnet Star"
@@ -3856,7 +3865,7 @@ msgstr "L'astre grenat"
 
 #: src/translations.h:414
 msgid "The One Behind"
-msgstr "Celui Derrière"
+msgstr "Celui de derrière"
 
 #: src/translations.h:488
 msgid "The Runner"
@@ -3868,19 +3877,19 @@ msgstr "Les Sept"
 
 #: src/translations.h:492
 msgid "The Ski Runners"
-msgstr "Le skieur"
+msgstr "Le courreurs à ski"
 
 #: src/translations.h:63
 msgid "Thebe"
-msgstr "Thebe"
+msgstr "Thébé"
 
 #: src/translations.h:324
 msgid "Three Stars"
-msgstr "Trois Étoiles"
+msgstr "Trois étoiles"
 
 #: src/translations.h:299
 msgid "Three Steps"
-msgstr "Trois Marches"
+msgstr "Trois marches"
 
 #: src/translations.h:707
 msgid "Thuban"
@@ -3892,11 +3901,11 @@ msgstr "Tonnerre et Éclair"
 
 #: src/translations.h:461
 msgid "Thunderbird"
-msgstr "Foudre"
+msgstr "Oiseau-tonnerre"
 
 #: src/translations.h:348
 msgid "Thunderbolt"
-msgstr "Foudre"
+msgstr "Coup de tonnerre"
 
 #: src/ui_tuiconf.cpp:560
 msgid "Time Display Format: "
@@ -3908,11 +3917,11 @@ msgstr "Fuseau horaire :"
 
 #: src/ui.cpp:796
 msgid "Time and Date:"
-msgstr "Heure et date"
+msgstr "Heure et date :"
 
 #: src/ui_conf.cpp:292
 msgid "Time speed : "
-msgstr "Vitesse du temps : "
+msgstr "Défilement du temps : "
 
 #: src/translations.h:72
 msgid "Titan"
@@ -3928,11 +3937,11 @@ msgstr "Crapaud"
 
 #: src/ui.cpp:781
 msgid "Toggle Moon Scaling"
-msgstr "Basculer en lune exagérée"
+msgstr "Taille de la Lune"
 
 #: src/ui.cpp:792
 msgid "Toggle Script Recording"
-msgstr "Enregistrer le script à la volée"
+msgstr "Enregistrer les commandes script"
 
 #: src/ui.cpp:794
 msgid "Toggle Video Frame Recording"
@@ -3976,11 +3985,11 @@ msgstr "Triton"
 
 #: src/ui.cpp:816
 msgid "Tropic Lines"
-msgstr "Lignes tropicales"
+msgstr "Lignes des tropiques"
 
 #: src/ui_tuiconf.cpp:669
 msgid "Truncated Projection"
-msgstr "Projection tronqué"
+msgstr "Projection tronquée"
 
 #: src/main.cpp:89
 #, c-format
@@ -4001,19 +4010,19 @@ msgstr "Scintillement : "
 
 #: src/translations.h:263
 msgid "Two Jaws"
-msgstr "Deux Mâchoires"
+msgstr "Deux mâchoires"
 
 #: src/translations.h:405
 msgid "Two Placed Far Apart"
-msgstr "Deux placés loin"
+msgstr "Les deux éloignés"
 
 #: src/translations.h:261
 msgid "Two Poles"
-msgstr "Deux côtés"
+msgstr "Deux poteaux"
 
 #: src/translations.h:404
 msgid "Two Sunbeams"
-msgstr "Deux rayons de soleil"
+msgstr "Deux rayons de Soleil"
 
 #: src/translations.h:410
 msgid "Two in Front"
@@ -4025,7 +4034,7 @@ msgstr "Type : "
 
 #: src/ui_tuiconf.cpp:637
 msgid "USB Script: "
-msgstr "Scripts USB "
+msgstr "Script USB "
 
 #: src/translations.h:78
 msgid "Umbriel"
@@ -4063,8 +4072,8 @@ msgid ""
 " -h, --help             Display this help and exit.\n"
 msgstr ""
 "Utilisation : %s [OPTION] ...\n"
-" -v, --version          Affiche les informations de version et quitte.\n"
-" -h, --help             Affiche cette aide et quitte.\n"
+" -v, --version          Afficher les informations de version et quitter.\n"
+" -h, --help             Afficher cette aide et quitter.\n"
 
 #: src/ui_conf.cpp:302
 msgid ""
@@ -4073,8 +4082,8 @@ msgid ""
 "Use key K to return to real time speed."
 msgstr ""
 "Utiliser les touches J et L pour respectivement\n"
-"diminuer et augmenter la vitesse du temps.\n"
-"La touche K permet de revenir en vitesse réelle."
+"diminuer et augmenter le défilement du temps.\n"
+"La touche K permet de revenir en défilement normal."
 
 #: src/ui_conf.cpp:281
 msgid "Using System Default Time Zone"
@@ -4126,7 +4135,7 @@ msgstr "Vashista"
 
 #: src/translations.h:710
 msgid "Vega"
-msgstr "Vega"
+msgstr "Véga"
 
 #: src/translations.h:257
 msgid "Vela"
@@ -4142,11 +4151,11 @@ msgstr "Vidéo"
 
 #: src/ui_tuiconf.cpp:677
 msgid "Video Offset: "
-msgstr "Décalage vidéo "
+msgstr "Décalage de l'affichage : "
 
 #: src/ui_tuiconf.cpp:675
 msgid "Video Shear: "
-msgstr "Arrêter l'enregistrement image par image "
+msgstr "Découper la vidéo : "
 
 #: src/translations.h:711
 msgid "Vindemiatrix"
@@ -4162,7 +4171,7 @@ msgstr "Vishakha"
 
 #: src/translations.h:385
 msgid "Voice of Joy"
-msgstr "Voix de Joie"
+msgstr "Voix joyeuse"
 
 #: src/translations.h:241
 msgid "Volans"
@@ -4206,11 +4215,11 @@ msgstr "Occidental"
 
 #: src/translations.h:165
 msgid "Western (color)"
-msgstr "L'occidental (couleur)"
+msgstr "Occidental (couleur)"
 
 #: src/translations.h:164
 msgid "Western (modern)"
-msgstr "L'occidental (modern)"
+msgstr "Occidental (moderne)"
 
 #: src/translations.h:370
 msgid "Western Door"
@@ -4242,7 +4251,7 @@ msgstr "Lit de la dame"
 
 #: src/translations.h:478
 msgid "Woman's Cart"
-msgstr "Chariot De la Femme"
+msgstr "Chariot De la dame"
 
 #: src/translations.h:375
 msgid "Xuanyuan"
@@ -4299,7 +4308,7 @@ msgstr "Zoom avant"
 
 #: src/ui_tuiconf.cpp:617
 msgid "Zoom Offset: "
-msgstr "Décaler le zoom "
+msgstr "Décalage du zoom : "
 
 #: src/ui.cpp:756
 msgid "Zoom Out"
@@ -4307,11 +4316,11 @@ msgstr "Zoom arrière"
 
 #: src/ui.cpp:760
 msgid "Zoom out (planet and satellites views)"
-msgstr "Zoom arrière (vues des planètes et des satellites)"
+msgstr "Zoom arrière (vue de la planète avec ses satellites)"
 
 #: src/ui.cpp:761
 msgid "Zoom to selected object"
-msgstr "Zoom pour sélectionner un objet"
+msgstr "Zoomer vers l'objet sélectionné"
 
 #: src/translations.h:722
 msgid "Zosma"
@@ -4337,5 +4346,5 @@ msgstr "kal"
 msgid "ly"
 msgstr "al"
 
-#~ msgid "Galactic Grid"
-#~ msgstr "Grille Galactique"
+#~ msgid "Nereid"
+#~ msgstr "Néréide"
