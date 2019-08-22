@@ -4312,3 +4312,11 @@ msgstr ""
 #: src/s_gui.cpp:2882
 msgid "Seconds"
 msgstr ""
+
+#: src/s_gui.cpp:2999
+msgid "Galactic Grid"
+msgstr ""
+
+#: src/s_gui.cpp:2999
+msgid "Spectral Type: "
+msgstr ""
