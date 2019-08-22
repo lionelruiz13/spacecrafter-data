@@ -1,12 +1,12 @@
 
 ###
-###Calcul des 500 premiers astéroides - Stellalrium 360 Stratoscript
+###Calcul des 500 premiers astéroides - SpaceCrafter Script
 ###
 ### Copyright 2013 Claude Boivin  email:claudeb54@videotron.ca
 ###
 ### License:
 ###
-### For use with Digitarium systems and LSS systems only
+### For use with LSS systems only
 ### The exploitation of this script is restricted to registered users only.
 #body name Ceres hidden false
 #body name Pallas hidden false

@@ -7,7 +7,7 @@
 ###
 ### License:
 ###
-### For use with Digitarium systems and LSS systems only
+### For use with LSS systems only
 ### The exploitation of this script is restricted to registered users only.
 ### http://lss-planetariums.info
 ###
@@ -15,9 +15,9 @@ flag sun_scaled off
 planet_scale name Mercury scale 1000
 planet_scale name Venus scale 1000
 planet_scale name Earth scale 1000
-body action load name _Mars parent Sun type Planet radius 4000000 oblateness 0.0 albedo 0.15 lighting true halo false color 1.0,1.0,1.0 rot_periode 24.622962 tex_map bodies/mars.png coord_func mars_special orbit_visualization_period 686.98 label_color 0.6,0.2,0.1 orbit_color 0.6,0.2,0.1
-#planet_scale name Mars scale 1000
-body name Mars hidden true
+#body action load name _Mars parent Sun type Planet radius 4000000 oblateness 0.0 albedo 0.15 lighting true halo false color 1.0,1.0,1.0 rot_periode 24.622962 tex_map bodies/mars.png coord_func mars_special orbit_visualization_period 686.98 label_color 0.6,0.2,0.1 orbit_color 0.6,0.2,0.1
+planet_scale name Mars scale 1000
+#body name Mars hidden true
 planet_scale name Jupiter scale 1000
 planet_scale name Saturn scale 1000
 planet_scale name Uranus scale 2000

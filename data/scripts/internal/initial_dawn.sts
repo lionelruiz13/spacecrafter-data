@@ -1,3 +1,10 @@
+image action purge
+flag loxodromy off
+flag orthodromy off
+flag angular_distance off
+flag object_coordinates off
+flag nautical_alt off
+flag nautical_ra off
 flag stars_trace off
 set auto_move_duration 0
 flag planet_orbits off
@@ -71,6 +78,8 @@ flag vernal_points off
 flag vertical_line off
 flag zenith_line off
 flag zodiac off
+flag polar_circle off
+flag polar_point off
 body_trace action clear
 flag body_trace off
 planet_scale name Mercury scale 1

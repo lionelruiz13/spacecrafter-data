@@ -1,3 +1,10 @@
+image action purge
+flag loxodromy off
+flag orthodromy off
+flag angular_distance off
+flag object_coordinates off
+flag nautical_alt off
+flag nautical_ra off
 flag stars_trace off
 set auto_move_duration 0
 flag planet_orbits off
@@ -5,11 +12,12 @@ image name black filename none.png coordinate_system viewport alpha 0 scale 1 ac
 wait duration 1
 image name black alpha 1 duration 1
 wait duration 1
-flag star_lines off
+set ambient_light default
 dso action clear
 body mode in_galaxy action clear
 deselect
 timerate rate 1
+flag star_lines off
 moveto alt 0.9E+9 duration 0
 wait duration 0.05
 moveto alt 0.9E+10 duration 0
@@ -70,6 +78,8 @@ flag vernal_points off
 flag vertical_line off
 flag zenith_line off
 flag zodiac off
+flag polar_circle off
+flag polar_point off
 body_trace action clear
 flag body_trace off
 planet_scale name Mercury scale 1

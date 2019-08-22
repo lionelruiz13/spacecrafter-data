@@ -1,6 +1,6 @@
 flag track_object on
 flag atmosphere off
-flag landscape off
+#flag landscape off
 wait duration 1
 moveto altitude 20000000 duration 3
 wait duration 2
