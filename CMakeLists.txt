@@ -1,5 +1,5 @@
 #
-#	Spacecrafter -data project !
+#	SpaceCrafter-data project !
 #
 
 
@@ -22,7 +22,7 @@ SET(PACKAGE spacecrafter)
 ########### Packaging info for CPack ###########
 INCLUDE(InstallRequiredSystemLibraries)
 
-SET(CPACK_PACKAGE_DESCRIPTION_SUMMARY "Spacecrafter Data")
+SET(CPACK_PACKAGE_DESCRIPTION_SUMMARY "SpaceCrafter Data")
 SET(CPACK_PACKAGE_VENDOR "LSS Open Project")
 SET(CPACK_PACKAGE_DESCRIPTION_FILE "${CMAKE_CURRENT_SOURCE_DIR}/README")
 SET(CPACK_RESOURCE_FILE_LICENSE "${CMAKE_CURRENT_SOURCE_DIR}/COPYING")
