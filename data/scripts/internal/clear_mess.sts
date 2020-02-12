@@ -22,8 +22,8 @@ set milky_way_texture default
 set milky_way_intensity default
 flag nebulae on
 flag bright_nebulae on
-flag suntrace off
-suntrace action clear
+flag body_trace off
+body_trace action clear
 planet_scale name Mercury scale 1
 planet_scale name Venus scale 1
 planet_scale name Earth scale 1
