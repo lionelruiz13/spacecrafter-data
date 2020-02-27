@@ -4320,3 +4320,24 @@ msgstr ""
 #: src/s_gui.cpp:2999
 msgid "Spectral Type: "
 msgstr ""
+
+#: src/translations.h:44
+msgid "moon"
+msgstr ""
+
+#: src/translations.h:44
+msgid "sun"
+msgstr ""
+
+#: src/translations.h:44
+msgid "planet"
+msgstr ""
+
+#: src/translations.h:44
+msgid "asteroid"
+msgstr ""
+
+#: src/translations.h:44
+msgid " Day length: "
+msgstr ""
+

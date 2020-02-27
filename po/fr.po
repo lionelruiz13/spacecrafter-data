@@ -39,6 +39,10 @@ msgstr ""
 "et envoyez vos remarques à : http://spacecrafter.org\n"
 "\n"
 
+#: src/translations.h:44
+msgid " Day length: "
+msgstr " Durée du jour : "
+
 #: src/main.cpp:88
 #, c-format
 msgid "%s: Bad command line argument(s)\n"
@@ -4334,6 +4338,10 @@ msgstr "Zubenelgenubi"
 msgid "Zubeneschamali"
 msgstr "Zubeneschamali"
 
+#: src/translations.h:44
+msgid "asteroid"
+msgstr "astéroïde"
+
 #: src/ui_conf.cpp:418
 msgid "change to apply."
 msgstr "appliquer le changement."
@@ -4345,6 +4353,18 @@ msgstr "kal"
 #: src/nebula.cpp:134
 msgid "ly"
 msgstr "al"
+
+#: src/translations.h:44
+msgid "moon"
+msgstr "satellite"
+
+#: src/translations.h:44
+msgid "planet"
+msgstr "planète"
+
+#: src/translations.h:44
+msgid "sun"
+msgstr "étoile"
 
 #~ msgid "Nereid"
 #~ msgstr "Néréide"
