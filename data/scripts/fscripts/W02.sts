@@ -1,5 +1,5 @@
 text name orion_string action drop
-text action load name orion_string string "You pressed on Win+Key" altitude 10 azimuth 180 r 0.5 g 0.5 b 0.0 
+text action load name orion_string string "You pressed on Win+F2" altitude 10 azimuth 180 r 0.5 g 0.5 b 0.0 align center
 text name orion_string display on
 script action pause
 text name orion_string action drop
