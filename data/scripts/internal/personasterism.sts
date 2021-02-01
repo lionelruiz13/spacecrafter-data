@@ -1,0 +1,24 @@
+###
+### Personal asterism switcher - SpaceCrafter Script
+###
+### Copyright 2021 Lionel Ruiz
+###
+### License:
+###
+### For use with LSS systems only
+### The exploitation of this script is restricted to registered users only.
+### http://www.lss-planetariums.info
+###
+
+struct if personasterism equal 0
+  define personasterism 1
+  deselect
+  star_lines action drop
+  flag star_lines_selected on
+struct if else
+  define personasterism 0
+  deselect
+  star_lines action drop
+  flag star_lines_selected off
+  star_lines load asterism_all.fab
+struct if end
