@@ -18,7 +18,7 @@ moveto alt 0.9E+9 duration 0
 wait duration 0.05
 moveto alt 0.9E+10 duration 0
 wait duration 0.05
-set home_planet default
+set home_planet Earth
 moveto lat default lon default alt default
 wait duration 0.05
 date load preset
