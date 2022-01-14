@@ -9,7 +9,7 @@
 ### The exploitation of this script is restricted to registered users only.
 ### http://lss-planetariums.info
 ###
-set milky_way_texture dome/mw-personal.png
+set milky_way_texture milkyways/mw-personal.png
 flag milky_way toggle
 flag nebulae on
 flag bright_nebulae on
