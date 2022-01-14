@@ -4,5 +4,5 @@
 #####################################
 # Stellarium360 Script
 # INIT
-landscape name panorama type fisheye maptex windrose.png night_texture panoramas/windrose.png texturefov 180 action load
+landscape name panorama type fisheye maptex panoramas/windrose.png night_texture panoramas/windrose.png texturefov 180 action load
 script action end
