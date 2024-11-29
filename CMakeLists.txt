@@ -7,9 +7,9 @@ cmake_minimum_required(VERSION 3.3)
 
 ########### Project name ###########
 project(spacecrafter-data)
-SET(SPACECRAFTER_DATA_YEAR "19")
-SET(SPACECRAFTER_DATA_MONTH "09")
-SET(SPACECRAFTER_DATA_DAY "14")
+SET(SPACECRAFTER_DATA_YEAR "24")
+SET(SPACECRAFTER_DATA_MONTH "11")
+SET(SPACECRAFTER_DATA_DAY "29")
 SET(VERSION "${SPACECRAFTER_DATA_YEAR}.${SPACECRAFTER_DATA_MINOR}.${SPACECRAFTER_DATA_DAY}")
 SET(PACKAGE spacecrafter)
 
@@ -39,6 +39,5 @@ INCLUDE(CPack)
 
 ###########  subdirectory  ########### 
 add_subdirectory(data)
-add_subdirectory(po)
 add_subdirectory(stars)
 add_subdirectory(textures)
