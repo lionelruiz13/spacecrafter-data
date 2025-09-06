@@ -1,7 +1,7 @@
 ###
-### Planet Position Earth - Stellarium360 Script
+### Planet Position Earth - SpaceCrafter Script
 ###
-### Copyright 2013 Lionel RUIZ - lionel.ruiz@live.fr
+### Copyright 2025 Lionel RUIZ - lionel.ruiz@live.fr
 ###
 ### License:
 ###
@@ -10,8 +10,11 @@
 ### text of this license are not removed or modified, other than to add 
 ### your own copyright notice for your modifications.
 ###
-set home_planet Mars
-landscape action load name pano type spherical maptex panoramas/tall_summit.png
+set home_planet Earth
+moveto lat default lon default alt default duration 0
+landscape name pano landing 0.8
+wait duration 1
+landscape action load name pano type spherical maptex panoramas/tall_smmits.png landing 0
 flag landscape on
 flag atmosphere on
 flag track_object off
@@ -24,5 +27,5 @@ zoom auto out duration 0
 body action clear
 flag stars on
 flag milky_way on
-wait duration 1
-script action end
+wait duration 0.1
+landscape name pano landing 1.8
