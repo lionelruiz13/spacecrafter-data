@@ -1,7 +1,7 @@
 ###
-### Planet Position Earth - SpaceCrafter Script
+### Planet Position Earth - Stellarium360 Script
 ###
-### Copyright 2019 Lionel RUIZ - lionel.ruiz@live.fr
+### Copyright 2015 Lionel RUIZ - lionel.ruiz@live.fr
 ###
 ### License:
 ###
@@ -11,18 +11,7 @@
 ### your own copyright notice for your modifications.
 ###
 set home_planet Earth
-landscape action load name pano type spherical maptex panoramas/endeavour_day.png night_texture panoramas/endeavour_night.png rotate_z -90
-flag landscape on
+landscape name panorama type fisheye maptex panoramas/windrose.png texturefov 180 action load
 flag atmosphere on
-flag track_object off
-flag planet_orbits off
-flag bright_nebulae on
-flag nebulae on
-flag planet_names off
-flag object_trails off
-zoom auto out duration 0
-body action clear
-flag stars on
-flag milky_way on
-wait duration 1
+flag landscape on
 script action end
