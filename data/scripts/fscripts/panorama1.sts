@@ -1,7 +1,7 @@
 ###
-### Planet Position Earth - Stellarium360 Script
+### Planet Position Earth - SpaceCrafter Script
 ###
-### Copyright 2009 Lionel RUIZ - lionel.ruiz@live.fr
+### Copyright 2025 Lionel RUIZ - lionel.ruiz@live.fr
 ###
 ### License:
 ###
@@ -12,8 +12,9 @@
 ###
 set home_planet Earth
 moveto lat default lon default alt default duration 0
-#set landscape_name Guereins
-landscape action load name pano type spherical maptex panoramas/marseille.png rotate_z 0
+landscape name pano landing 0.8
+wait duration 1
+landscape action load name pano type spherical maptex panoramas/campagne.png landing 0
 flag landscape on
 flag atmosphere on
 flag track_object off
@@ -26,5 +27,5 @@ zoom auto out duration 0
 body action clear
 flag stars on
 flag milky_way on
-wait duration 1
-script action end
+wait duration 0.1
+landscape name pano landing 1.8
